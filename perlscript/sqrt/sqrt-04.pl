@@ -28,6 +28,7 @@ foreach ( $input_num{'start'}..$input_num{'end'} ) {
 print "\n---------------------\n";
 print "$input_num{'start'} ～ $input_num{'end'}\n";
 print "整数は、$count個です。\n";
-print "\n---------------------\n";
+print "---------------------\n";
+print 'http://www.research.att.com/~njas/sequences/index.html?language=japanese'."\n";
 
 1;
