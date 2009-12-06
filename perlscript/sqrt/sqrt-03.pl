@@ -11,7 +11,7 @@ my $count;
 
 foreach ( $input_num{'start'}..$input_num{'end'} ) {
   if (sqrt($_) =~ /^\d+$/) {
-    print "$_ ->\t" . sqrt($_);
+    print "$_\t->\t" . sqrt($_);
     ++$count;
   }
 }
