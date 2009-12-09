@@ -7,19 +7,16 @@ use WWW::Mechanize;
 use YAML::Tiny;
 
 my %input_num;
-my $result_numbers = '';
+my $result_numbers = "";
 
 $input_num{'start'}  = $ARGV[0]; 
 $input_num{'end'}    = $ARGV[1];
 
 foreach ( $input_num{'start'}..$input_num{'end'} ) { 
   if (sqrt($_) =~ /^\d+$/) {
-    $result_numbers = $_.',';
+    $result_numbers = $result_numbers . $_ . ',';
   }
-  #ここを考える 
 }
-
-print $result_numbers . "\n";
 
 my $yaml  = YAML::Tiny->new;
 $yaml     = YAML::Tiny->read('config.yaml');
@@ -36,6 +33,7 @@ $mech->submit_form(
   },
 );
 
-print $mech->{last_uri} . "\n";
+#print $mech->{last_uri} . "\n";
+`firefox -url $mech->{last_uri}`;
 
 1;
