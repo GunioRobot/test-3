@@ -1,0 +1,1556 @@
+%last_uri = bless( (
+                     'form' => bless( {
+                                        'enctype' => 'application/x-www-form-urlencoded',
+                                        'action' => bless( do{\(my $o = 'http://www.research.att.com/~njas/sequences')}, 'URI::http' ),
+                                        'method' => 'GET',
+                                        'attr' => {
+                                                    'name' => 'f',
+                                                    'method' => 'GET'
+                                                  },
+                                        'inputs' => [
+                                                      bless( {
+                                                               'maxlength' => '1024',
+                                                               'value_name' => '',
+                                                               'value' => '1,4,9,16,25,36,49,64,81,100,',
+                                                               'name' => 'q',
+                                                               'title' => 'Search Query',
+                                                               'type' => 'text',
+                                                               'size' => '55'
+                                                             }, 'HTML::Form::TextInput' ),
+                                                      bless( {
+                                                               'readonly' => 1,
+                                                               'value_name' => '',
+                                                               'value' => '0',
+                                                               'name' => 'sort',
+                                                               'type' => 'hidden'
+                                                             }, 'HTML::Form::TextInput' ),
+                                                      bless( {
+                                                               'readonly' => 1,
+                                                               'value_name' => '',
+                                                               'value' => '0',
+                                                               'name' => 'fmt',
+                                                               'type' => 'hidden'
+                                                             }, 'HTML::Form::TextInput' ),
+                                                      bless( {
+                                                               'readonly' => 1,
+                                                               'value_name' => '',
+                                                               'value' => 'japanese',
+                                                               'name' => 'language',
+                                                               'type' => 'hidden'
+                                                             }, 'HTML::Form::TextInput' ),
+                                                      bless( {
+                                                               'value_name' => '',
+                                                               'value' => "\x{691c}\x{7d22}",
+                                                               'name' => 'go',
+                                                               'type' => 'submit'
+                                                             }, 'HTML::Form::SubmitInput' )
+                                                    ]
+                                      }, 'HTML::Form' ),
+                     'content' => '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+  <head>
+  <META http-equiv="content-type" content="text/html; charset=utf-8">
+  <script type="text/javascript">
+<!--
+function sf(){document.f.q.focus();}
+// -->
+</script>
+
+  <title>1,4,9,16,25,36,49,64,81,100, - OEIS Search Results</title>
+  <link rel="search" type="application/opensearchdescription+xml" title="OEIS" href="oeis.xml">
+  </head>
+
+  <body bgcolor=#ffffff onload="sf()">
+  
+    <center>
+    <img border="0" width="336" height="48" src="IntegerSeq.gif" alt="Logo" />
+    <br>
+    <!-- no special fonts -->
+    </center>
+  
+    <center>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr><td>
+        <center>
+  <p>
+  <form name=f action="/~njas/sequences" method="GET">
+    <font size=+1><b>
+      <a href="/~njas/sequences/Seis.html">&#12458;&#12531;&#12521;&#12452;&#12531;&#25972;&#25968;&#21015;&#22823;&#20107;&#20856;</a>&#12408;&#12424;&#12358;&#12371;&#12381;&#65281;
+    </b></font>
+    <br>
+    <p>
+    <table cellspacing=0 cellpadding=0 border=0>
+    <tr><td>
+    <input maxLength=1024 size=55 name=q value="1,4,9,16,25,36,49,64,81,100," title="Search Query">
+    <input type=hidden name=sort value=0>
+    <input type=hidden name=fmt value=0>
+    <input type=hidden name=language value="japanese">
+    <input type=submit value="&#26908;&#32034;" name=go>
+    <td width=10><td>
+    <font size=-2><a href="/~njas/sequences/hints.html">&#12498;&#12531;&#12488;</a>
+        </table>
+        <br>
+        </font>
+  </form>
+  <p>
+</center>
+
+<span dir="LTR">&#26908;&#32034;:</span> <b>1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>
+<br>
+<table bgcolor="#FFFFCC" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr height="1" bgcolor="#7F7F66"><td></td></tr>
+<tr><td>
+  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td>Displaying 1-10 of 17 results found.</td>
+      <td align=right>
+        <font size=-1>page 
+          1
+          <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=2&amp;n=10">2</a>
+        </font>
+      </td>
+    </tr>
+  </table>
+  <tr><td>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <font size=-1>
+      Format: long  | <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=1&amp;n=10&amp;fmt=1">short</a>  | <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=1&amp;n=10&amp;fmt=2">internal</a>  | <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=1&amp;n=10&amp;fmt=3">text</a> 
+    </font>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <font size=-1>
+      Sort: relevance  | <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=1&amp;n=10&amp;sort=1">references</a>  | <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=1&amp;n=10&amp;sort=2">number</a>     </font>    &nbsp;&nbsp;&nbsp;&nbsp;
+    <font size=-1>
+      Highlight: on  | <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=1&amp;n=10&amp;hl=1">off</a>     </font>  </td></tr>
+  <tr height=1 bgcolor="#7F7F66"><td></td></tr>
+  <tr height=5 bgcolor="#FFFFFF"><td></td></tr>
+</table>
+<center>
+  <table width="750" cellspacing="0" cellpadding="0" border="0">
+    <tr height="1"><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            The squares: a(n) = n^2.          <br><font size=-1>(Formerly M3356 N1350)</font>
+          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>625</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt>0, <b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=290&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=290&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=290&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>0,3</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>COMMENT</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Zero followed by partial sums of <a href="/~njas/sequences/A005408" title="The odd numbers: a(n) = 2n+1.">A005408</a> (odd numbers). - Jeremy Gardiner (jeremy.gardiner(AT)btinternet.com), Aug 13 2002
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Begin with n, add the next number, subtract the previous number and so on ending with subtracting a 1: a(n) = n + (n+1) - (n-1) +(n+2) -(n-2) +(n+3)-(n-3)...+(2n-1)-1 = n^2. - Amarnath Murthy (amarnath_murthy(AT)yahoo.com), Mar 24 2004
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sum of two consecutive triangular numbers <a href="/~njas/sequences/A000217" title="Triangular numbers: a(n) = C(n+1,2) = n(n+1)/2 = 0+1+2+...+n.">A000217</a>. - Lekraj Beedassy (blekraj(AT)yahoo.com), May 14 2004
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Numbers with an odd number of divisors: {d(n^2)=<a href="/~njas/sequences/A048691" title="tau(n^2), where tau = A000005.">A048691</a>(n); for the first occurrence of 2n+1 divisors, see <a href="/~njas/sequences/A071571" title="Smallest number whose square has exactly 2n+1 divisors.">A071571</a>(n)}. - Lekraj Beedassy (blekraj(AT)yahoo.com), Jun 30 2004. See also <a href="/~njas/sequences/A000037" title="Numbers that are not squares (note the remarkable formula for the n-th term).">A000037</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            First sequence ever computed by electronic computer, on EDSAC, May 6 1949 (see Renwick link). - Russ Cox (rsc(AT)swtch.com), Apr 20 2006
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Numbers n such that the imaginary quadratic field Q[Sqrt[ -n]] has four units. - Marc LeBrun (mlb(AT)well.com), Apr 12 2006
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Number of permutations of two distinct letters (AB) or numbers each of which appears n=0 to infinity ("0", AB, AABB, AAABBB, AAAABBBB, AAAAABBBBB, etc...)with two and n-2 fixed points. - Zerinvary Lajos (zerinvarylajos@yahoo.com), Nov 12 2009
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            For n&gt;0: number of divisors of (n-1)th power of any squarefree semiprime: a(n)=<a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>(<a href="/~njas/sequences/A006881" title="Numbers that are the product of two distinct primes.">A006881</a>(k)^(n-1)); a(n) = <a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>(<a href="/~njas/sequences/A000400" title="Powers of 6.">A000400</a>(n-1)) = <a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>(<a href="/~njas/sequences/A011557" title="Powers of 10.">A011557</a>(n-1)) = <a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>(<a href="/~njas/sequences/A001023" title="Powers of 14.">A001023</a>(n-1)) = <a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>(<a href="/~njas/sequences/A001024" title="Powers of 15.">A001024</a>(n-1)). - Reinhard Zumkeller (reinhard.zumkeller(AT)gmail.com), Mar 04 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            For n&gt;=1, a(n) is equal to the number of functions f:{1,2}-&gt;{1,2,...,n} such that for y_1, y_2 in {1,2,...,n} we have f(1)&lt;&gt;y_1 and f(2)&lt;&gt;y_2. - Milan R. Janjic (agnus(AT)blic.net), Apr 17 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            If a 2-set Y and an (n-2)-set Z are disjoint subsets of an n-set X then a(n-2) is the number of 3-subsets of X intersecting both Y and Z. - Milan R. Janjic (agnus(AT)blic.net), Sep 19 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Also numbers a such that a^1/2 + b^1/2 = c^1/2 and a^2 + b = c. - Cino Hilliard (hillcino368(AT)hotmail.com), Feb 07 2008
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Numbers n such that the geometric mean of the divisors of n is an integer. - Ctibor O. Zizka (ctibor.zizka(AT)seznam.cz), Jun 26 2008
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Equals row sums of triangle <a href="/~njas/sequences/A143470" title="Triangle read by rows, A000012 * A143316, 1&lt;=k&lt;=n.">A143470</a>. Example: 36 = sum of row 6 terms: (23 + 7 + 3 + 1 + 1 + 1). [From Gary W. Adamson (qntmpkt(AT)yahoo.com), Aug 17 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Equals row sums of triangles <a href="/~njas/sequences/A143595" title="Triangle read by rows, A000012 * (an infinite lower triangular matrix with 1\'s in the first column and the rest 2\'s); 1&lt;=k&lt;=n.">A143595</a> and <a href="/~njas/sequences/A056944" title="Amount by which used area of rectangle needed to enclose a non-touching spiral of length n on a square lattice exceeds unused ar">A056944</a> [From Gary W. Adamson (qntmpkt(AT)yahoo.com), Aug 26 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Number of divisors of 6^n - J. Lowell (jhbubby(AT)mindspring.com), Aug 30 2008
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Denominators of Lyman spectrum of hydrogen atom. Numerators are <a href="/~njas/sequences/A005563" title="n(n+2) (or, (n+1)^2 - 1).">A005563</a>. <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a>-<a href="/~njas/sequences/A005563" title="n(n+2) (or, (n+1)^2 - 1).">A005563</a>=<a href="/~njas/sequences/A000012" title="The simplest sequence of positive numbers: the all 1\'s sequence.">A000012</a>. Just before <a href="/~njas/sequences/A061038" title="Denominator of 1/4 - 1/n^2.">A061038</a>,<a href="/~njas/sequences/A061040" title="Denominator of 1/9 - 1/n^2.">A061040</a>,<a href="/~njas/sequences/A061042" title="Denominator of 1/16 - 1/n^2.">A061042</a>,<a href="/~njas/sequences/A061044" title="Denominator of 1/25 - 1/n^2.">A061044</a>,<a href="/~njas/sequences/A061046" title="Denominator of 1/36 - 1/n^2.">A061046</a>,<a href="/~njas/sequences/A061048" title="Denominator of 1/49 - 1/n^2.">A061048</a>,<a href="/~njas/sequences/A061050" title="Denominator of 1/64 - 1/n^2.">A061050</a>. See <a href="/~njas/sequences/A035287" title="Number of ways to place a non-attacking white and black rook on n X n chessboard.">A035287</a>. [From Paul Curtz (bpcrtz(AT)free.fr), Nov 06 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Number n such that if a=n, b=2n, c=3n, d=6n*sqrt(n), then a^3+b^3+c^3=d^2 Example: a=1, b=2, c=3, d=6, 1^3+2^3+3^3=6^2; a=16, b=32, c=48, d=384, 16^3+32^3+48^3=384^2 [From Vincenzo Librandi (vincenzo.librandi(AT)tin.it), Jan 23 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) is also the number of all partitions of the sum 2^2+2^2+...2^2, (n-1)-times, into powers of 2. [From Valentin Bakoev (v_bakoev(AT)yahoo.com), Mar 03 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) is the maximal number of squares that can be \'on\' in an n X n board so that all the squares turn \'off\' after applying the operation : in any 2 X 2 sub-board, a square turns from \'on\' to \'off\' if the other three are off. [From Srikanth K S (sriperso(AT)gmail.com), Jun 25 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            For n&gt;0, if a=n, b=2n, c=3*n*sqrt(n), then a^3+b^3=c^2 [From Vincenzo Librandi (vincenzo.librandi(AT)tin.it), Jul 02 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Zero together with the numbers n such that 2=number of perfect partitions of n [From Juri-Stepan Gerasimov (2stepan(AT)rambler.ru), Sep 26 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Totally multiplicative sequence with a(p) = p^2 for prime p. [From Jaroslav Krizek (jaroslav.krizek(AT)atlas.cz), Nov 01 2009]
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>REFERENCES</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            G. L. Alexanderson et al., The William Lowell Putnam Mathematical Competition, Problems and Solutions:1965-1984, "December 1967 Problem B4(a)", pp. 8(157) MAA Washington DC 1985.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 2.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Bakoev V., Algorithmic approach to counting of certain types m-ary partitions, Discrete Mathematics, 275 (2004) pp.17-41. [From Valentin Bakoev (v_bakoev(AT)yahoo.com), Mar 03 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            R. P. Burn &amp; A. Chetwynd, A Cascade Of Numbers, "The prison door problem" Problem 4 pp. 5-7;79-80 Arnold London 1996.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            M. Gardner, Time Travel and Other Mathematical Bewilderments, Chapter 6 pp. 71-2, W.H.Freeman NY 1988.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Clark Kimberling, Complementary Equations, Journal of Integer Sequences, Vol. 10 (2007), Article 07.1.4.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            A. S. Posamentier, The Art of Problem Solving, Section 2.4 "The Long Cell Block" pp. 10-1;12;156-7 Corwin Press Thousand Oaks CA 1996.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            J. K. Strayer, Elementary Number Theory, Exercise Set 3.3 Problems 32;33 pp. 88 PWS Publishing Co. Boston MA 1996.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            C. W. Trigg, Mathematical Quickies, "The Lucky Prisoners" Problem 141 pp. 40;141 Dover NY 1985.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            R. Vakil, A Mathematical Mosaic, "The Painted Lockers" pp. 127;134 Brendan Kelly Burlington Ontario 1996.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>LINKS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Franklin T. Adams-Watters, <a href="b000290.txt">The first 10000 squares: Table of n, n^2 for n = 0..10000</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            V. Bakoev, <a href="http://www.uni-vt.bg/showfullpub.asp?u=32&fn=AACCTMP.pdf">Algorithmic approach to counting of certain types m-ary partitions</a>, Discrete Mathematics, 275 (2004) pp. 17-41.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            H. Bottomley, <a href="http://www.gallup.unm.edu/~smarandache/math.htm">Some Smarandache-type multiplicative sequences</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            J. Derbyshire, <a href="http://olimu.com/Notes/Monkeys&Doors.htm">Monkeys and Doors</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            INRIA Algorithms Project, <a href="http://algo.inria.fr/bin/encyclopedia?Search=ECSnb&argsearch=338">Encyclopedia of Combinatorial Structures 338</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Hyun Kwang Kim, <a href="http://com2mac.postech.ac.kr/papers/2001/01-22.pdf">On Regular Polytope Numbers</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            S. Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de S\\\'{e}ries G\\\'{e}n\\\'{e}ratrices et Quelques Conjectures</a>, Dissertation, Universit\\\'{e} du Qu\\\'{e}bec \\`{a} Montr\\\'{e}al, 1992.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            S. Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Universit\\\'{e} du Qu\\\'{e}bec \\`{a} Montr\\\'{e}al, 1992.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            W. S. Renwick, <a href="http://www.cl.cam.ac.uk/Relics/elog.html">EDSAC log</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            J. Scholes, <a href="http://www.kalva.demon.co.uk/putnam/psoln/psol6710.html">28th Putnam 1967 Prob.B4(a)</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            James A. Sellers, <a href="http://www.cs.uwaterloo.ca/journals/JIS/">Partitions Excluding Specific Polygonal Numbers As Parts</a>, Journal of Integer Sequences, Vol. 7 (2004), Article 04.2.4.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            N. J. A. Sloane, <a href="a217.gif">Illustration of initial terms of A000217, A000290, A000326</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            D. Surendran, <a href="http://www.uz.ac.zw/science/maths/zimaths/jailer.htm">Chimbumu and Chickwama get out of jail</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein\'s World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Link to a section of The World of Mathematics (1).</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein\'s World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Link to a section of The World of Mathematics (2).</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein\'s World of Mathematics, <a href="http://mathworld.wolfram.com/Unit.html">Unit</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein\'s World of Mathematics, <a href="http://mathworld.wolfram.com/WienerIndex.html">Wiener Index</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            <a href="Sindx_Cor.html#core">Index entries for "core" sequences</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            <a href="Sindx_Tu.html#2wis">Index entries for two-way infinite sequences</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            <a href="Sindx_Rea.html#recLCC">Index entries for sequences related to linear recurrences with constant coefficients</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>FORMULA</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Multiplicative with a(p^e) = p^(2e). - David W. Wilson (davidwwilson(AT)comcast.net), Aug 01, 2001.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            G.f.: x(1+x)/(1-x)^3. E.g.f.: exp(x)(x+x^2). Dirichlet g.f.: zeta(s-2). a(n)=a(-n).
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sum of all matrix elements M(i, j) = 2*i/(i+j) (i, j = 1..n). a(n) = Sum[Sum[2*i/(i+j), {i, 1, n}], {j, 1, n}] - Alexander Adamchuk (alex(AT)kolmogorov.com), Oct 24 2004
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(0)=0, a(1)=1, a(n)=2*a(n-1)-a(n-2)+2 - Miklos Kristof (kristmikl(AT)freemail.hu), Mar 09 2005
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n)=sum of the odd numbers for i=1 to n. a(0)=0 a(1)=1 then a(n)=a(n-1)+2*n-1. - Pierre CAMI (pierrecami(AT)tele2.fr), Oct 22 2006
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            For n&gt;0: a(n) = <a href="/~njas/sequences/A130064" title="(n / SmallestPrimeFactor(n)) * GreatestPrimeFactor(n).">A130064</a>(n)*<a href="/~njas/sequences/A130065" title="(n / GreatestPrimeFactor(n)) * SmallestPrimeFactor(n).">A130065</a>(n). - Reinhard Zumkeller (reinhard.zumkeller(AT)gmail.com), May 05 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) = Sum(<a href="/~njas/sequences/A002024" title="n appears n times.">A002024</a>(n,k): 1&lt;=k&lt;=n). - Reinhard Zumkeller (reinhard.zumkeller(AT)gmail.com), Jun 24 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Left edge of the triangle in <a href="/~njas/sequences/A132111" title="Triangle read by rows: T(n,k) = n^2 + k*n + k^2, 0&lt;=k&lt;=n.">A132111</a>: a(n)=<a href="/~njas/sequences/A132111" title="Triangle read by rows: T(n,k) = n^2 + k*n + k^2, 0&lt;=k&lt;=n.">A132111</a>(n,0). - Reinhard Zumkeller (reinhard.zumkeller(AT)gmail.com), Aug 10 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) = {least common multiple of n and n-1} - (n-1). - Mats Granvik (mgranvik(AT)abo.fi), Sep 16 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Binomial transform of [1, 3, 2, 0, 0, 0,...]. - Gary W. Adamson (qntmpkt(AT)yahoo.com), Nov 21 2007
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) = C(n+1,2) + C(n,2)
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            This sequence could be derived from the following general formula (cf. <a href="/~njas/sequences/A001286" title="Lah numbers: (n-1)*n!/2.">A001286</a>, <a href="/~njas/sequences/A000330" title="Square pyramidal numbers: 0^2+1^2+2^2+...+n^2 = n(n+1)(2n+1)/6.">A000330</a>): n*(n+1)*...*(n+k)*[n+(n+1)+...+(n+k)]/((k+2)!*(k+1)/2 ) at k=0 Indeed, using the formula for the sum of the arithmetic progression [n+(n+1)+...+(n+k)]= (2*n + k)*(k + 1)/2 the general formula could be rewritten as: n*(n+1)*...*(n+k)*(2*n + k)/(k+2)! so for k=0 above general formula degenerates to n*(2*n + 0)/(0+2)!= n^2 - Alexander R. Povolotsky (pevnev(AT)juno.com), May 18 2008
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            From a(4) recurence formula a(n+3)=3a(n+2)-3a(n+1)+a(n) and a(1)=1, a(2)=4, a(3)=9 [From Artur Jasinski (grafix(AT)csl.pl), Oct 21 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            The recurrence a(n+3)=3a(n+2)-3a(n+1)+a(n) is satisfied by all k-gonal sequences from a(3), with a(0)=0, a(1)=1, a(2)=k. [From Jaume Oliver Lafont (joliverlafont(AT)gmail.com), Nov 18 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) = floor [ n*(n+1)* [sum_{i=1..n} 1/(n*(n+1))]] [From Ctibor O. Zizka (c.zizka(AT)email.cz), Mar 07 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Product_{i=2..infinity} (1-2/a(i)) = -sin(<a href="/~njas/sequences/A063448" title="Decimal expansion of Pi * sqrt(2).">A063448</a>)/<a href="/~njas/sequences/A063448" title="Decimal expansion of Pi * sqrt(2).">A063448</a>. [From R. J. Mathar (mathar(AT)strw.leidenuniv.nl), Mar 12 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            let this <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a>=F(actor) then F*4=Q^2 always where Q=2*n if n&gt;=0 and n are the unique numbers of exact roots Q. [From david scheers (dscheers(AT)webpoint.nl), Mar 15 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            G.f.: x*(1-x)/exp(x) . [From Zerinvary Lajos (zerinvarylajos(AT)yahoo.com), Apr 03 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(n) = <a href="/~njas/sequences/A002378" title="Oblong (or promic, pronic, or heteromecic) numbers: n(n+1).">A002378</a>(n-1) + n. [From Jaroslav Krizek (jaroslav.krizek(AT)atlas.cz), Jun 14 2009]
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXAMPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            example: <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a>=F=25. n=5. Q=10. Q^2=F*4 =&gt; 10^2=25*4=100 [From david scheers (dscheers(AT)webpoint.nl), Mar 15 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            For n=1, 1^3+2^3=3^2; n=4, 4^3+8^3=24^2; n=9, 0^3+18^3=81^2 [From Vincenzo Librandi (vincenzo.librandi(AT)tin.it), Jul 02 2009]
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>MAPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            A000290 := n-&gt;n^2;
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            A000290:=-(1+z)/(z-1)^3; [S. Plouffe, in his 1992 dissertation, for sequence starting at a(1).]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a:=n-&gt;sum(1+sum(1, k=3..n), k=2..n):seq(a(n), n=1...44); - Zerinvary Lajos (zerinvarylajos(AT)yahoo.com), Jun 11 2008
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            with(finance):seq(add(cashflows([k, k, -1], 0 ), k=1..n), n=0..45); # [From Zerinvary Lajos (zerinvarylajos(AT)yahoo.com), Dec 22 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            restart: G(x):=x*(1-x)/exp(x): f[0]:=G(x): for n from 1 to 43 do f[n]:=diff(f[n-1], x) od: x:=0: seq(abs(f[n]), n=0..43); # [From Zerinvary Lajos (zerinvarylajos(AT)yahoo.com), Apr 03 2009]
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>MATHEMATICA</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a[n_] := n^2; Table[a[n], {n, 0, 50}] - Stefan Steinerberger (stefan.steinerberger(AT)gmail.com), Mar 30 2006
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Array[ #^2 &amp;, 60, 0] - Joseph Biberstine (jrbibers(AT)indiana.edu), Dec 26 2006
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a = {1, 4, 9}; k = 1; m = 4; r = 9; Do[l = 3 r - 3 m + k; AppendTo[a, l]; k = m; m = r; r = l, {n, 1, 100}]; a [From Artur Jasinski (grafix(AT)csl.pl), Oct 21 2008]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            s=0; lst={}; Do[s+=n; AppendTo[lst, s], {n, 1, 5!, 2}]; lst [From Vladimir Orlovsky (4vladimir(AT)gmail.com), Apr 02 2009]
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>PROGRAM</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            (MAGMA) [ n^2 : n in [0..1000]];
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            (PARI) a(n)=n^2
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            (Other) sage: [log(e^(n^2))for n in xrange(0, 34)]# [From Zerinvary Lajos (zerinvarylajos(AT)yahoo.com), Jun 03 2009]
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A092205" title="Number of units in the imaginary quadratic field Q[Sqrt[ -n]].">A092205</a>, <a href="/~njas/sequences/A128200" title="Numbers of divisors of semiprime powers: A000005(A085155(n)).">A128200</a>, <a href="/~njas/sequences/A005408" title="The odd numbers: a(n) = 2n+1.">A005408</a>, <a href="/~njas/sequences/A128201" title="Union of squares and the odd numbers.">A128201</a>, <a href="/~njas/sequences/A002522" title="n^2 + 1.">A002522</a>, <a href="/~njas/sequences/A005563" title="n(n+2) (or, (n+1)^2 - 1).">A005563</a>, <a href="/~njas/sequences/A008865" title="n^2 - 2.">A008865</a>, <a href="/~njas/sequences/A059100" title="n^2+2.">A059100</a>, <a href="/~njas/sequences/A143051" title="Smallest number not occurring earlier and smaller than the largest square so far, the next square if no such number exists.">A143051</a>, <a href="/~njas/sequences/A143470" title="Triangle read by rows, A000012 * A143316, 1&lt;=k&lt;=n.">A143470</a>, <a href="/~njas/sequences/A143595" title="Triangle read by rows, A000012 * (an infinite lower triangular matrix with 1\'s in the first column and the rest 2\'s); 1&lt;=k&lt;=n.">A143595</a>, <a href="/~njas/sequences/A056944" title="Amount by which used area of rectangle needed to enclose a non-touching spiral of length n on a square lattice exceeds unused ar">A056944</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            A row or column of <a href="/~njas/sequences/A132191" title="Square array read by antidiagonals, defined (in PARI notation) by a(m,n) = sum(k=1, n, if(gcd(k, n)==1, m^sumdiv(n, d, eulerphi(">A132191</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a> is related to partitions of 2^n into powers of 2, as it is shown in <a href="/~njas/sequences/A002577" title="Number of partitions of 2^n into powers of 2.">A002577</a>. So <a href="/~njas/sequences/A002577" title="Number of partitions of 2^n into powers of 2.">A002577</a> connects <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a> and <a href="/~njas/sequences/A000447" title="a(n) = 1^2 + 3^2 + 5^2 + 7^2 + ... + (2n-1)^2 = n(4n^2 - 1)/3.">A000447</a>. [From Valentin Bakoev (v_bakoev(AT)yahoo.com), Mar 03 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A001105" title="2*n^2.">A001105</a> [From David Scheers (dscheers(AT)webpoint.nl), Mar 15 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            <a href="/~njas/sequences/A004159" title="Sum of digits of n^2.">A004159</a>, <a href="/~njas/sequences/A159918" title="Number of ones in binary representation of n^2.">A159918</a>. [From Reinhard Zumkeller (reinhard.zumkeller(AT)gmail.com), Apr 25 2009]
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A106545" title="a(n) = n^2 if n^2 is the sum of two primes, otherwise a(n) = 0.">A106545</a> <a href="/~njas/sequences/A093837" title="Denominators of N(r)/r^2, where N(r) is the number of lattice points inside a circle of radius r.">A093837</a> <a href="/~njas/sequences/A069821" title="(a(n)^3-1)/(n^3-1) is the smallest integer&gt;1.">A069821</a> this_sequence <a href="/~njas/sequences/A162395" title="-(-1)^n * n^2.">A162395</a> <a href="/~njas/sequences/A144913" title="Integers which are the product of even powers of primes up to 13.">A144913</a> <a href="/~njas/sequences/A018885" title="Squares using only two distinct digits.">A018885</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A000287" title="Number of rooted polyhedral graphs with n edges.">A000287</a> <a href="/~njas/sequences/A000288" title="Tetranacci numbers: a(n) = a(n-1) + a(n-2) + a(n-3) +a(n-4).">A000288</a> <a href="/~njas/sequences/A000289" title="A nonlinear recurrence: a(n) = a(n-1)^2-3*a(n-1)+3 (for n&gt;1).">A000289</a> this_sequence <a href="/~njas/sequences/A000291" title="Number of bipartite partitions of n white objects and 2 black ones.">A000291</a> <a href="/~njas/sequences/A000292" title="Tetrahedral (or pyramidal) numbers: C(n+2,3) = n(n+1)(n+2)/6.">A000292</a> <a href="/~njas/sequences/A000293" title="a(n) = number of solid (i.e. three-dimensional) partitions of n.">A000293</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            nonn,core,easy,nice,mult,new
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            N. J. A. Sloane (njas(AT)research.att.com).
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A133819" title="Triangle whose rows are sequences of increasing squares: 1; 1,4; 1,4,9; ... .">A133819</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            Triangle whose rows are sequences of increasing squares: 1; 1,4; 1,4,9; ... .          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>10</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt>1, 1, 4, 1, 4, 9, 1, 4, 9, 16, 1, 4, 9, 16, 25, 1, 4, 9, 16, 25, 36, 1, 4, 9, 16, 25, 36, 49, 1, 4, 9, 16, 25, 36, 49, 64, 1, 4, 9, 16, 25, 36, 49, 64, 81, <b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, <b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 121, <b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 121, 144</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=133819&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=133819&amp;fmt=312">table</a>; <a href="/~njas/sequences/table?a=133819&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=133819&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>0,3</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>COMMENT</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Reading the triangle by rows produces the sequence 1,1,4,1,4,9,1,4,9,16,..., analogous to the Smarandache crescendo sequence <a href="/~njas/sequences/A002260" title="Integers 1 to k followed by integers 1 to k+1 etc. (a fractal sequence).">A002260</a>.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>REFERENCES</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            (Bernard) de? Frenicle (de Bessy), studying Pythagorean triangles: Methode pour trouver .., p. 11; in Divers ouvrages de mathematique et de physique par Messieurs de l\'Academie Royale des Sciences, In-folio, (4)+6+519 pages, Paris, 1693. - Paul Curtz (bpcrtz(AT)free.fr), Aug 18 2008
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>FORMULA</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            O.g.f.: (1+qx)/((1-x)(1-qx)^3) = 1 + x(1 + 4q) + x^2(1 + 4q + 9q^2) + ... .
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXAMPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Triangle starts
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            1;
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            1, 4;
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            1, 4, 9;
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            1, 4, 9, 16;
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            1, 4, 9, 16, 25;
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A131112" title="4*A007318 - 3*I.">A131112</a> <a href="/~njas/sequences/A141225" title="Number of points having maximal visibility in a square n x n lattice.">A141225</a> <a href="/~njas/sequences/A079185" title="Number of isomorphism classes of commutative closed binary operations (groupoids) on a set of order n, listed by class size.">A079185</a> this_sequence <a href="/~njas/sequences/A021245" title="Decimal expansion of 1/241.">A021245</a> <a href="/~njas/sequences/A007891" title="A Kutz sequence.">A007891</a> <a href="/~njas/sequences/A165487" title="Squared version of A165477.">A165487</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A133816" title="First German version of A131744.">A133816</a> <a href="/~njas/sequences/A133817" title="Second German version of A131744.">A133817</a> <a href="/~njas/sequences/A133818" title="a(n) = (8*n+3)*(8*n+5)*(8*n+7)*(8*n+9).">A133818</a> this_sequence <a href="/~njas/sequences/A133820" title="Triangle whose rows are sequences of increasing cubes: 1; 1,8; 1,8,27; ... .">A133820</a> <a href="/~njas/sequences/A133821" title="Triangle whose rows are sequences of increasing fourth powers: 1; 1,16; 1,16,81; ... .">A133821</a> <a href="/~njas/sequences/A133822" title="E.g.f. satisfies: A(x) = x*(sinh(tan(A(x)))+1).">A133822</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            easy,nonn,<a href="/~njas/sequences/table?a=133819&amp;fmt=312">tabl</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Peter Bala (pbala(AT)toucansurf.com), Sep 25 2007
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A077355" title="Squares whose internal digits form a square.">A077355</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            Squares whose internal digits form a square.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>5</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 144, 196, 400, 441, 841, 900, 1369, 3364, 4096, 5041, 8649, 10000, 10816, 11449, 20164, 38416, 40000, 61009, 64009, 77841, 90000, 117649, 132496, 170569, 231361, 249001, 288369, 310249, 405769</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=77355&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=77355&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=77355&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>FORMULA</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            <a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>(a(n)) is an odd number. - Juri-Stepan Gerasimov (2stepan(AT)rambler.ru), Oct 10 2009
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXAMPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            11449=107^2 is a member as it has internal digits 144 = 12^2.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A077356" title="Squares whose external digits (MSD and LSD) form a square. Or squares from which deleting the internal digits leaves a square.">A077356</a>, <a href="/~njas/sequences/A077357" title="Squares whose external digits (MSD and LSD) as well as internal digits form squares.">A077357</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A000005" title="d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.">A000005</a>. - Juri-Stepan Gerasimov (2stepan(AT)rambler.ru), Oct 10 2009
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A018885" title="Squares using only two distinct digits.">A018885</a> <a href="/~njas/sequences/A025741" title="Index of 10^n within sequence of numbers of form 3^i*10^j.">A025741</a> <a href="/~njas/sequences/A030476" title="Squares with property that all even digits occur together and all odd digits occur together.">A030476</a> this_sequence <a href="/~njas/sequences/A077487" title="Squares which leave a square at every step if most significant digit and least significant digit are deleted until a one-digit o">A077487</a> <a href="/~njas/sequences/A068864" title="a(1) = 1; a(n+1) is the smallest square not already in the sequence which differs from a(n) at every digit.">A068864</a> <a href="/~njas/sequences/A068854" title="a(1) = 1; a(n) is the smallest square &gt; a(n) which differs from it at every digit.">A068854</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A077352" title="a(n) = (concatenation in ascending order of divisors of 2^n)/2^n.">A077352</a> <a href="/~njas/sequences/A077353" title="a(n) = (concatenation in ascending order of divisors of 5^n)/5^n.">A077353</a> <a href="/~njas/sequences/A077354" title="a(n) = sum of second string of n primes - sum of first n primes, or the 2n-th partial sum of primes (A000040 ) - the n-th partia">A077354</a> this_sequence <a href="/~njas/sequences/A077356" title="Squares whose external digits (MSD and LSD) form a square. Or squares from which deleting the internal digits leaves a square.">A077356</a> <a href="/~njas/sequences/A077357" title="Squares whose external digits (MSD and LSD) as well as internal digits form squares.">A077357</a> <a href="/~njas/sequences/A077358" title="Duplicate of A069686.">A077358</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            base,nonn
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Amarnath Murthy (amarnath_murthy(AT)yahoo.com), Nov 05 2002
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXTENSIONS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            More terms from Erich Friedman (efriedma(AT)stetson.edu), Aug 08 2005
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Edited by Juri-Stepan Gerasimov (2stepan(AT)rambler.ru), Oct 10 2009
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Misleading comment removed by R. J. Mathar (mathar(AT)strw.leidenuniv.nl), Oct 28 2009
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A018885" title="Squares using only two distinct digits.">A018885</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            Squares using only two distinct digits.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>4</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 121, 144, 225, 400, 441, 484, 676, 900, 1444, 7744, 10000, 11881, 29929, 40000, 44944, 55225, 69696, 90000, 1000000, 4000000, 9000000, 9696996, 100000000, 400000000, 900000000, 6661661161, 10000000000</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=18885&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=18885&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=18885&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>LINKS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Alexandru Gica and Laurentiu Panaitopol, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On Oblath\'s Problem</a>, J. Integer Seqs., Vol. 6, 2003.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein\'s World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">See also</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A016069" title="Numbers n such that n^2 contains exactly 2 different digits.">A016069</a>, <a href="/~njas/sequences/A016070" title="Numbers n such that n^2 contains exactly 2 different digits, excluding 10^m, 2*10^m, 3*10^m.">A016070</a>, <a href="/~njas/sequences/A018884" title="Squares using at most two distinct digits, not ending in 0 (no other term &lt; 10^41; probably finite).">A018884</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a> <a href="/~njas/sequences/A162395" title="-(-1)^n * n^2.">A162395</a> <a href="/~njas/sequences/A144913" title="Integers which are the product of even powers of primes up to 13.">A144913</a> this_sequence <a href="/~njas/sequences/A025741" title="Index of 10^n within sequence of numbers of form 3^i*10^j.">A025741</a> <a href="/~njas/sequences/A030476" title="Squares with property that all even digits occur together and all odd digits occur together.">A030476</a> <a href="/~njas/sequences/A077355" title="Squares whose internal digits form a square.">A077355</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A018882" title="a(n)^10 is smallest tenth power beginning with n.">A018882</a> <a href="/~njas/sequences/A018883" title="Least non-square having square residues for all moduli 2 through n.">A018883</a> <a href="/~njas/sequences/A018884" title="Squares using at most two distinct digits, not ending in 0 (no other term &lt; 10^41; probably finite).">A018884</a> this_sequence <a href="/~njas/sequences/A018886" title="Waring\'s problem: least positive integer requiring maximum number of terms when expressed as a sum of positive n-th powers.">A018886</a> <a href="/~njas/sequences/A018887" title="Waring\'s problem: least number of positive n-th powers needed to sum to any sufficiently large integer.">A018887</a> <a href="/~njas/sequences/A018888" title="Write n = m_1^3 + ... +m_k^3 where the m_i are positive integers and k is minimal; sequence gives number for which k = 8 or 9.">A018888</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            nonn,base
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            David W. Wilson (davidwwilson(AT)comcast.net)
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A068854" title="a(1) = 1; a(n) is the smallest square &gt; a(n) which differs from it at every digit.">A068854</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            a(1) = 1; a(n) is the smallest square &gt; a(n) which differs from it at every digit.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>4</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 225, 361, 400, 529, 676, 729, 841, 900, 1156, 2025, 3136, 4225, 5041, 6400, 7056, 8100, 9025, 10201, 21025, 30276, 42025, 50176, 61009, 70225, 81796, 90000, 101124, 210681</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=68854&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=68854&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=68854&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXAMPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            225 is a member and the next few squares are 256,289,324, 361, 400, 441... 361 is the smallest one which differs from 223 in all corresponding digit positions.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A068853" title="a(1) = 2; a(n+1) is the smallest prime &gt; a(n) which differs from it in every digit.">A068853</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A077355" title="Squares whose internal digits form a square.">A077355</a> <a href="/~njas/sequences/A077487" title="Squares which leave a square at every step if most significant digit and least significant digit are deleted until a one-digit o">A077487</a> <a href="/~njas/sequences/A068864" title="a(1) = 1; a(n+1) is the smallest square not already in the sequence which differs from a(n) at every digit.">A068864</a> this_sequence <a href="/~njas/sequences/A068867" title="Numbers n such that A068864(n) = n.">A068867</a> <a href="/~njas/sequences/A111704" title="a(n) = concatenation of (n times each digit of n).">A111704</a> <a href="/~njas/sequences/A052041" title="Squares lacking the digit zero in their decimal expansion.">A052041</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A068851" title="a(1) = 83 ( the smallest prime beginning with 8) and then the smallest prime with leading digits containing a(n-1).">A068851</a> <a href="/~njas/sequences/A068852" title="a(1) = 97 ( the smallest prime beginning with 9) and then the smallest prime with leading digits containing a(n-1).">A068852</a> <a href="/~njas/sequences/A068853" title="a(1) = 2; a(n+1) is the smallest prime &gt; a(n) which differs from it in every digit.">A068853</a> this_sequence <a href="/~njas/sequences/A068855" title="a(1) = 1; a(n) is the smallest triangular number &gt; a(n) which differs from it at every digit.">A068855</a> <a href="/~njas/sequences/A068856" title="First of three consecutive Ulam numbers (A002858) in arithmetic progression with difference 22.">A068856</a> <a href="/~njas/sequences/A068857" title="a(1) = 0 = 0*2; a(n) = smallest multiple of a(n-1) which is of the form 2k*(2k+2).">A068857</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            base,nonn
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Amarnath Murthy (amarnath_murthy(AT)yahoo.com), Mar 12 2002
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A093837" title="Denominators of N(r)/r^2, where N(r) is the number of lattice points inside a circle of radius r.">A093837</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            Denominators of N(r)/r^2, where N(r) is the number of lattice points inside a circle of radius r.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>3</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 121, 16, 169, 196, 225, 256, 17, 324, 361, 400, 441, 484, 529, 576, 625, 676, 243, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 432, 1369, 1444, 1521, 64, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 343, 500</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=93837&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=93837&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=93837&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>LINKS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein\'s World of Mathematics, <a href="http://mathworld.wolfram.com/GausssCircleProblem.html">Gauss\'s Circle Problem</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A000328" title="Number of points of norm &lt;= n^2 in square lattice.">A000328</a>, <a href="/~njas/sequences/A093832" title="Values of r such that N(r)/r^2 &gt; Pi, where N(r) is the number of integer lattice points (x,y) inside a circle of radius r.">A093832</a>, <a href="/~njas/sequences/A000328" title="Number of points of norm &lt;= n^2 in square lattice.">A000328</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A035121" title="Numbers of the form x^2+82*y^2.">A035121</a> <a href="/~njas/sequences/A080151" title="Let m = Demlo number A002477(n); a(n) = sum of digits of m.">A080151</a> <a href="/~njas/sequences/A106545" title="a(n) = n^2 if n^2 is the sum of two primes, otherwise a(n) = 0.">A106545</a> this_sequence <a href="/~njas/sequences/A069821" title="(a(n)^3-1)/(n^3-1) is the smallest integer&gt;1.">A069821</a> <a href="/~njas/sequences/A000290" title="The squares: a(n) = n^2.">A000290</a> <a href="/~njas/sequences/A162395" title="-(-1)^n * n^2.">A162395</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A093834" title="Expansion of (1-2x)^2/((1-3x)(1-4x)).">A093834</a> <a href="/~njas/sequences/A093835" title="n*Jacobsthal(n).">A093835</a> <a href="/~njas/sequences/A093836" title="Duplicate of A000328.">A093836</a> this_sequence <a href="/~njas/sequences/A093838" title="Primes of the form 36n + 1.">A093838</a> <a href="/~njas/sequences/A093839" title="Lexicographically minimal sequence of distinct positive integers such that the n-th partial sum and n-th partial product are div">A093839</a> <a href="/~njas/sequences/A093840" title="Partial sums of A093839.">A093840</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            nonn
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Eric Weisstein (eric(AT)weisstein.com), Apr 17, 2004
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A162497" title="Number of reduced words of length n in the reflection group [3,3,5] of order 14400.">A162497</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            Number of reduced words of length n in the reflection group [3,3,5] of order 14400.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>3</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 121, 144, 168, 192, 216, 240, 264, 288, 312, 336, 359, 380, 399, 416, 431, 444, 455, 464, 471, 476, 478, 476, 471, 464, 455, 444, 431, 416, 399, 380, 359, 336, 312, 288, 264, 240, 216, 192, 168, 144, 121, 100, 81, 64, 49, 36, 25, 16</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=162497&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=162497&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=162497&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>0,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>COMMENT</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            This is also the Weyl group H_4.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>REFERENCES</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            H. S. M. Coxeter and W. O. J. Moser, Generators and Relations for Discrete Groups, 4th ed., Springer-Verlag, NY, reprinted 1984, Table 10.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            J. E. Humphreys, Reflection Groups and Coxeter Groups, Cambridge, 1990. See under Poincare polynomial.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>FORMULA</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            G.f.: (1-x^2)*(1-x^12)*(1-x^20)*(1-x^30)/(1-x)^4.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>PROGRAM</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            (MAGMA) G := CoxeterGroup(GrpFPCox, "H4");
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            f := GrowthFunction(G);
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Coefficients(f);
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A161409" title="Number of reduced words of length n in the Weyl group E_6 on 6 generators and order 51840.">A161409</a>, <a href="/~njas/sequences/A162493" title="Number of reduced words of length n in the Weyl group E_7 on 7 generators and order 2903040.">A162493</a>-<a href="/~njas/sequences/A162496" title="Number of reduced words of length n in the reflection group [3,4,3] of order 1152.">A162496</a>.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            nonn,fini,new
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            John Cannon (john(AT)maths.usyd.edu.au) and N. J. A. Sloane (njas(AT)research.att.com), Dec 01 2009
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A068864" title="a(1) = 1; a(n+1) is the smallest square not already in the sequence which differs from a(n) at every digit.">A068864</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            a(1) = 1; a(n+1) is the smallest square not already in the sequence which differs from a(n) at every digit.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>2</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 225, 144, 256, 121, 289, 196, 324, 169, 400, 361, 484, 529, 441, 576, 625, 784, 676, 729, 841, 900, 1024, 961, 1089, 2116, 1225, 2304, 1156, 2025, 1296, 2401, 1369, 2500, 1444, 2209, 1521, 2704, 1681, 2809, 1764, 2601</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=68864&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=68864&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=68864&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXAMPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            144 follows 225 as the smallest square not included earlier and differing at every digit position with 225.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A068854" title="a(1) = 1; a(n) is the smallest square &gt; a(n) which differs from it at every digit.">A068854</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A030476" title="Squares with property that all even digits occur together and all odd digits occur together.">A030476</a> <a href="/~njas/sequences/A077355" title="Squares whose internal digits form a square.">A077355</a> <a href="/~njas/sequences/A077487" title="Squares which leave a square at every step if most significant digit and least significant digit are deleted until a one-digit o">A077487</a> this_sequence <a href="/~njas/sequences/A068854" title="a(1) = 1; a(n) is the smallest square &gt; a(n) which differs from it at every digit.">A068854</a> <a href="/~njas/sequences/A068867" title="Numbers n such that A068864(n) = n.">A068867</a> <a href="/~njas/sequences/A111704" title="a(n) = concatenation of (n times each digit of n).">A111704</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A068861" title="a(1) = 1; a(n) is the smallest number not already in the sequence which differs from a(n) at every digit.">A068861</a> <a href="/~njas/sequences/A068862" title="Numbers n such that A068861(n) = n.">A068862</a> <a href="/~njas/sequences/A068863" title="a(1) = 2; a(n+1) is the smallest prime not already in the sequence which differs from a(n) at every digit.">A068863</a> this_sequence <a href="/~njas/sequences/A068865" title="a(1) = 1; a(n) is the smallest triangular number not already in the sequence which differs from a(n) at every digit.">A068865</a> <a href="/~njas/sequences/A068866" title="Numbers n such that A068865(n) = n.">A068866</a> <a href="/~njas/sequences/A068867" title="Numbers n such that A068864(n) = n.">A068867</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            nonn,base
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Amarnath Murthy (amarnath_murthy(AT)yahoo.com), Mar 13 2002
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXTENSIONS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Edited by Larry Reeves (larryr(AT)acm.org), Oct 09 2003
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A111704" title="a(n) = concatenation of (n times each digit of n).">A111704</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            a(n) = concatenation of (n times each digit of n).          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>2</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt><b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 1111, 1224, 1339, 1456, 1575, 1696, 17119, 18144, 19171, 400, 4221, 4444, 4669, 4896, 50125, 52156, 54189, 56224, 58261, 900, 9331, 9664, 9999, 102136, 105175, 108216, 111259, 114304, 117351, 1600, 16441, 16884</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=111704&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=111704&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=111704&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,2</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXAMPLE</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(12) = concatenation 12*1, 12*2 = 1224.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            a(123) = 123246369.
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Cf. <a href="/~njas/sequences/A111705" title="a(n) = concatenation of n times each digit of n divided by n.">A111705</a>.
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A068864" title="a(1) = 1; a(n+1) is the smallest square not already in the sequence which differs from a(n) at every digit.">A068864</a> <a href="/~njas/sequences/A068854" title="a(1) = 1; a(n) is the smallest square &gt; a(n) which differs from it at every digit.">A068854</a> <a href="/~njas/sequences/A068867" title="Numbers n such that A068864(n) = n.">A068867</a> this_sequence <a href="/~njas/sequences/A052041" title="Squares lacking the digit zero in their decimal expansion.">A052041</a> <a href="/~njas/sequences/A018884" title="Squares using at most two distinct digits, not ending in 0 (no other term &lt; 10^41; probably finite).">A018884</a> <a href="/~njas/sequences/A050749" title="Squares containing no pair of consecutive equal digits.">A050749</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A111701" title="Least integer obtained when n is divided by prime(1), then by prime(2), then by prime(3),..., stopping as soon as one of the pri">A111701</a> <a href="/~njas/sequences/A111702" title="a(1) = 3, then n multiples of n so that every partial sum is a prime.">A111702</a> <a href="/~njas/sequences/A111703" title="Primes arising as partial sums in A111702.">A111703</a> this_sequence <a href="/~njas/sequences/A111705" title="a(n) = concatenation of n times each digit of n divided by n.">A111705</a> <a href="/~njas/sequences/A111706" title="a(n) = concatenation of k times the k-th digit of n.">A111706</a> <a href="/~njas/sequences/A111707" title="a(n) = SUM {k-th digit from left* k-th digit from right.}.">A111707</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            base,easy,nonn
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Amarnath Murthy (amarnath_murthy(AT)yahoo.com), Aug 22 2005
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>EXTENSIONS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            More terms from Joshua Zucker (joshua.zucker(AT)stanfordalumni.org), May 08 2006
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+    <tr height=1 bgcolor="#76767F"><td>
+    <tr bgcolor="#EEEEFF"><td valign=top>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td valign=top align=left width=100><a href="/~njas/sequences/A118881" title="Square of sum of decimal digits of n.">A118881</a></td>
+          <td width=5></td>
+          <td valign=top align=left>
+            Square of sum of decimal digits of n.          </td>
+          <td width=2></td>
+	      <td valign=top align=right>
+            <font size=-2>+20<br>2</font>
+          </td>
+        </tr>
+      </table>
+    <tr><td>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width=20></td><td width=710><tt>0, 1, 4, 9, 16, 25, 36, 49, 64, 81, <b style="color:black;background-color:#ffff66">1, 4, 9, 16, 25, 36, 49, 64, 81, 100</b>, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 36, 49, 64, 81, 100, 121, 144</tt>
+          <font size=-1>(<a href="/~njas/sequences/table?a=118881&amp;fmt=4">list</a>; <a href="/~njas/sequences/table?a=118881&amp;fmt=5">graph</a>; <a href="/~njas/sequences/table?a=118881&amp;fmt=6">listen</a>)</font>
+      </table>
+    </td></tr>
+    <tr><td valign=top>
+      <table cellspacing="0" cellpadding="2" cellborder="0">
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>OFFSET</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>1,3</tt></p>
+        </td>
+        <td width="20"></td>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>CROSSREFS</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Sequence in context: <a href="/~njas/sequences/A062331" title="Product of the sum and the product of the digits of n (0 is not to be considered a factor in the product).">A062331</a> <a href="/~njas/sequences/A069940" title="(1/2)*((Sum of digits of n)^2 + (Sum of digits^2 of n)).">A069940</a> <a href="/~njas/sequences/A153211" title="Sum of digits of n, times digital reversal of sum of digits of n.">A153211</a> this_sequence <a href="/~njas/sequences/A098733" title="Consider the sequence {b(n), n &gt;= 1} of digits of the natural (or counting) numbers: 1 2 3 4 5 6 7 8 9 1 0 1 1 1 2 1 3 1 4 1 5 1">A098733</a> <a href="/~njas/sequences/A083163" title="Define a function f(k) by f(k) = (k*a*b*c...)/{d*e*f...), where a,b,c,...are those nonzero digits of k which do not divide k and">A083163</a> <a href="/~njas/sequences/A068522" title="In base 10 notation replace digits of n by their squared values (Version 2).">A068522</a>
+          </tt></p>
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Adjacent sequences: <a href="/~njas/sequences/A118878" title="Let T(S,Q) be the sequence obtaining by starting with S and repeatedly reversing the digits and adding Q to get the next term. a">A118878</a> <a href="/~njas/sequences/A118879" title="Let T(S,Q) be the sequence obtaining by starting with S and repeatedly reversing the digits and adding Q to get the next term. T">A118879</a> <a href="/~njas/sequences/A118880" title="Cube numbers equal to sum of decimal digits of n.">A118880</a> this_sequence <a href="/~njas/sequences/A118882" title="Numbers which are the sum of two squares in two or more different ways.">A118882</a> <a href="/~njas/sequences/A118883" title="Smallest prime p with bigomega(p+1)=n, where bigomega(m)=A001222(m) is the number of prime divisors of m (counted with multiplic">A118883</a> <a href="/~njas/sequences/A118884" title="Triangle read by rows: T(n,k) is the number of binary sequences of length n containing k subsequences 0011 (n,k&gt;=0).">A118884</a>
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>KEYWORD</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            base,easy,nonn
+          </tt></p>
+        </td></tr>
+        <tr><td width="20"><td valign=top width="100">
+          <font size=-2>AUTHOR</font>
+        </td>
+        <td width="600">
+          <p style="text-indent: -1em; margin-left: 1em; margin-top: 0; margin-bottom: 0;"><tt>
+            Giovanni Teofilatto (g.teofilatto(AT)tiscalinet.it), May 25 2006
+          </tt></p>
+        </td></tr>
+      </table>
+    </td></tr>
+    <tr height=10><td></td></tr>
+  </table>
+</center>
+<table bgcolor="#FFFFCC" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr height=1 bgcolor="#7F7F66"><td></td></tr>
+  <tr><td align=right>
+    <font size=-1>page 
+      1
+      <a href="/~njas/sequences/?q=1%2c4%2c9%2c16%2c25%2c36%2c49%2c64%2c81%2c100%2c&amp;language=japanese&amp;p=2&amp;n=10">2</a>
+    </font>
+  </td></tr>
+  <tr height=1 bgcolor="#7F7F66"><td></td></tr>
+</table>
+<center><p><font size=-1>Search completed in 0.011 seconds
+</font></center>
+
+      </td></tr>
+    </table>
+    </center>
+    
+    <p>
+    
+    <center>
+      <a href="index.html">Lookup</a> |
+      <a href="Seis.html"><font color="red">Welcome</font></a> |
+      <a href="pfr">Find friends</a> |
+      <a href="play.html">Music</a> |
+      <a href="plot2.html">Plot 2</a> |
+      <a href="demo1.html">Demos</a> |
+      <a href="Sindx.html">Index</a> |
+      <a href="Sbrowse.html">Browse</a> |
+      <a href="more.html">More</a> |
+      <a href="WebCam.html">WebCam</a>
+      
+      <br>
+      
+      <a href="Submit.html">Contribute new seq. or comment</a> |
+      <a href="eishelp2.html">Format</a> |
+      <a href="transforms.html">Transforms</a> |
+      <a href="Spuzzle.html">Puzzles</a> |
+      <a href="Shot.html">Hot</a> |
+      <a href="classic.html">Classics</a>
+      
+      <br>
+      
+      <a href="pages.html">More pages</a> |
+      <a href="ol.html">Superseeker</a> |
+      <span dir="LTR">&#31649;&#29702;&#32773; <a href="http://www.research.att.com/~njas/">&#12491;&#12540;&#12523;&#12539;&#65322;&#12539; &#65313;&#12539;&#12473;&#12525;&#12540;&#12531;</a></span>
+      (<a href="mailto:njas@research.att.com">njas@research.att.com</a>)
+    </center>
+
+    <p>
+    <center>
+    <font size=-1>Last modified December  8 08:31 EST 2009.  Contains 170430 sequences.
+</font>
+    </center>
+    <p>
+    
+<hr> <p>
+<center> <font size=-1> <a href="/">AT&amp;T Labs Research</a>  </font> </center> <p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td nowrap class="copyright">
+<small>
+<a href="http://www.research.att.com/legal.cfm" class="SmGrey">Legal Notice</a><br>
+<a href="http://att.sbc.com/gen/privacy-policy?pid=2587"> &copy; 2009 AT&amp;T Intellectual Property.</a>  All Rights Reserved.
+</small>
+</td>
+<td width="100%">&nbsp;</td>
+</tr>
+</table>  
+    
+  </body>
+</html>
+',
+                     'res' => bless( {
+                                       '_protocol' => 'HTTP/1.1',
+                                       '_content' => '‹      í}û_ÛÆ²øÏ·Å÷sZlY/¿ ¦—HÓ†„§9çä†|×öÚV%G’§·÷oÿÎÌ®~€!Á9%-–´Zícvw^;3ûäoÏ^ïşëhŸı|zø’ıãéË{¬P®TŞØ{•Ê³Ógò…­[ìÀõ¹W©ì¿*ì|÷d½ï{2¼K7‡û§»lÇ£²ø8v/Z…NàÇÂËñd$
+L=µ
+±¸Š+øù6ëx‰¸5{åFJ‰:¡;Š~£²~à\\¦b½+—¿ëıNì>‹zZñnĞ¡d½§Ô{ğiÅí?¿«TX¹Tä·;ßaé±{bÇ,9¥fÉ¬•¬jÉ®•œf©æ”fÉ4Œ+³×û/NØ‰àagÀE4öâèIE~‰ex®ÎBáµ
+å)¨ÆòÑÈs;V	FÂ—o»BÖ©›WC2cA­VR`ƒPôZ…@¸‘/©üŠ„(Ş¶ƒî„µûÀÂÖ÷=úÇßxj‡ÎÓğ?äí D¸#ÜaŸµƒ°+ÂVÁ(°K·ZÛ®A•Âí`œFEa§UxßõEx">ê}·W`Üƒ·/ƒ~P`U\\;) Ïü€E#Ñq¹Çz0¦™ŞV²6,hSÌÛÈ·ª#</ñë÷ÓçïvÕ³ü?wÄİäqªØ\'#úíáù|(Z=Æij´
+•ÿó?ğ¨Ád~GD6ñ  À=ß?U…?Á°Èı$Z›æÎ“vZ%W#3[Hå‡
+\'oaç‡ïMË©6¶ñZµMyµäÕ©Z¹t«Ú¬[òZÃü–i˜U¼ZËÆ«auº6ªµí\'.Ë6dÙåĞÕVuÙuY‡İÀk­jÁUÁ¿½ó¤‚]š¶ÑÔäánLAİH†ÇH>Èş‰ëÆ1ò«—ÂïÃ|2Ë‘À«V%ô?²îavß´ÂÒ% –ØocN
+SuĞ‚¸İ®ğeÁQÆªlãæœ½áŠ=î÷Ç¼/’&à#î‹H,hI4nİ¤ØŒS­Icc[†íldyı YW­7ÓÈ/›iekçúù5paEå\'Xsz‚9Ml1ThPs	É¨Ë·ÉtÀ»p˜¬™l©~÷¦‚Ïº.¬É—§ÇXët÷¶ ƒB(\'sJ¬Yb0²†–ÁØ2\\£Ë`xŒ/ÎÂï¨ÉŠWø«ğıüÛÛKÑdşûR,CXb˜â/³+¹~P?¨Õ
+o€ıPÒù«sçª“å"¥îÎ37y|¹™Y6ô˜YÊ@pãØïêÔ˜ì@®nßo…Ø…Ü(å&‡¹3ÂI™¾cÌÌİ_?q~úØ2ÿnuøkÂŸYƒ«
+?6Ş9˜VÃ—Ì…İ·:?ğáh;Y­dşSê¨eÑÕ‡I\\Ø±ff\\†bhş%S¼"Á“›‘Søã¿¶ççÖ‡™”} 3–Ç[Ì Äì¿bïÍ´÷tH¥ev¢ !„Åƒ7Æ*ì¸¸~![‹öØ…äÕ¨-ßÍN’Ûü	Àyy,qÁ¡Ú=$=8øP¹©Æ‡85	¦€?¶E(›“Áün ÿP’‡hiÌíİÀCp½Ş|Çr¨KBÌå¤`*u†(Ì“‹å¹Í)R¯.ça‘›oäõİªÁª™i¾ìõ>üS½@>‰LŒ2Ê3ÇøİÜØ):™Cıq·-«LÑ6Oôâ”2n`uvÃ°šFÊ‹>9Ğ-Æ5¿ÈZÌ?³ôÂÊ‰ó!OO§¹­êÂw›—ÏÄØuõæ
+nfzÑhHšDèMØ¡mWkì•iWâ4eœ¦³ÍµTsÿë†¶Î°	³k×ÚÙ´l[Íª.«:›_3,ãŒtµÊL±äóìÔÎ•–ôÑP“;M©Oï€œı¤Í¢x‚Osx«íñÎùv~ú!²Ne™LR/®çUyO¸±ğÉq0+æoâø…UÅ»¤Ù–ƒ`™(ó;Ş5 ­jÁÛjòÕğ‹ŞÕ1­o˜¯‰_4kT#cX¢ibá&ÕcZX¥iSí5¤Jmªá§fZ[Çv›§	 š¸é™vı¢¡ú‰·`i¤„Ø)ìxnD„xû¾èÓja§òÑà.ßÖdµÂÇ‹sbnºÍ!»Ï@Y+OÄ‚eÌ¢Æ†+\\}kçõÁÁÉşéìâšYZY5µÙÂFÉGî¨ìú }-›b¸‚tØwı2"¤-–OÖm1#}lq1¥ ÖMSæIe´B“¨ç3/ï4{¯÷_­l¦på¿E€æyÁ¥è²ö„x£Ú*#”Ön¤MUÇhLÑ¦ Ûe’ãÊè„åoš’@avbX´\\¾¢ÎÊì`‡öœ‡0kEÈ´” ÷U‚¶{ZlÇ’±Ş	†ÅÛƒPi3ß4NŸ÷¯Ç§²À0Ææ—,>8|¨Mõ³mÇ!ïÄôfŠ7Gê-ã~—E²•ÂÇ…+‹J>ÁÎÌŒô²M¦X‹ :Í/Ãu-x„\'K>ÙE|°‹º®ojf*›	Õ.³]è”Ï¡ŠÃq&Lã*áıà>ëC2ËAX;ë“ñgf| Â<qì^‡.2Ï´TM­›\'¯a™õlòÎ}œ{!]²îôŠ·Æ¦¹im"pı„û2ë8¹º/ÅyÈ?À¤]E ]@Ó˜2Õ	¿õ€ê+3šxÜÏ-ev×½pA¤¨üÑÕ`[7ÁÖiÔšf
+Û˜é“»À²fğ DJ àQ~@|ĞQHk¤ç†QÌ‚Ng’P‰í@d’6Ö”7rİ¬Ö³†œ¹ç‰(Y’Ğœ JøZ6àW°Ø€aª…ZH©şy›!şeì3Û !ÖÙ	4—{°Îo˜†MÌdXâ¶Óâ„‡µÄ‚`Ø’‡çÄ &r
+F˜ˆsXTŠ§‰úàSî€8é;0& µÑ8–´Hx¢‡ïv’d@£€"÷ŸìîÉÕSÖÕi2\'Â±ğ/İÎ9ÃÍ\'¢*Çã(b{ÁÓÂ¨ƒ]ÆAB=F€Ñh`jˆd}Àøk:wÈá[Nx7ä1@¢ç
+¯Ë~{{ò1Œß²²ÿîMİ^0ÙØwã{èºSôi³Ozmìü%°¹¾›Ö:õ×öæè8¦ÍÁ(Ağ]à˜]ˆ¦\'âA¤í>-² Cñ‚À óåÀ…>	€l,˜ë÷\\ 	¬N`|¡ÛOáo÷)ıÂE^ñFİÑ-Ü‹¸ˆ½H˜Äè*€ş
+&æ( ı€20O®Ãó’ mŸ’Ÿÿ;^
+äÍùÂï‡~¼ml-@ñxOLô~l!½äşDa^K-CwºC!©äÄ€Ğ|ŠÏºHT5B‚ÄÆ]FäÆ4rûCşŞ€\' ¡®…K.KùÆÊk†y=2•¬XĞÃ›qÔ?‰ı©ªë¼xF°2¥Øƒõíºr{Zù$•QSe8†!	vg;bšÕj}AGLƒ
+¡×ßFOÓ°ìE=qd!øúÛé‰³¨\'Õ´\'NÖ"ÆÂõ Î±‡ç@ŠPÊUšş)ICBu½œÜa‡\\_´Ù2Krõ»@ )zHk¦áš˜ß aŞú¤‡?Ëø!Ş•€´”ü?s”µÉ{(sòŞ’Åò¹.‘1á¦§™Å¼xK¼D’zš•K#±îĞõ€u?ÖÙ/Üÿ Ì‚Æûş8"éÙs;:ÈÎ	õ¯¯L_ iaV91ûu
+šO2,%ı›4`äHsQ†ÔHÒ# È˜åŸx‡_7š»œûèŸŒ4 1’D¨Zÿ½2ğNÄXÎõ Ş.®ö„â¹ÅÏLR7Y›®-Ö¡+÷ŒÒ1»¼çúûÙõ<W¦6€»$Ùµv{Ä¹¥x ÚÌ iÓxğ_Ç0÷E0qƒ7(Ãö(u
+ÉáW®´è" Än–àkıÛıtÎ™Ö¡ı>‘Ø >ù|¨w>)yÎª­ö÷D,.SuT‚x7JÅ¦c;ucFõá¡ÉIì‚ò@´&J ëÃlÜQ0Û´Îé—ˆ…,Ij=ö¯øpäCh×`vERGƒM«‘ğm1Í²aîÕá¯fòÔáíAQû7aot¶ÛåÃÄ<í£Gçñ¬HMz?9ß­óÜ¨ĞU›ÕÕA£9KâŒ`±å9…×ÃÃ•Ôİ˜?FHE2J\'ğÆCŸ–¿T@šõc,ì¢…V‘³ßÄTkM\'ã v‡Á044\\
+bã8@Şœf \\Ù;_ˆ.²&ƒb<Ô¾pæqXÆˆ“£‘=…<2 ƒõ
+3\'JÇ &®:PR¯ª™jµıöóI-é‡ŸO¯²fµ3µä:{ Ï´ƒö¸İ&5íZ°â÷sı‘*§‡GQÏ„@y¬:òr2„‰Œ¶±q(QÄ`Òƒ>’p(EÇş‹PfÇ¿yû¡ZË¸i_jÀµ ,Iİ8Pº2b¹õ Y%ºçÍöò}·p™,mZÓtëæÕh¨I	"—tâ©.>ˆ„’œ	»oZ2¿Œ¡˜¶ vôf¸×LÃÎ¶}r#L@ÅÁNU@Qf,¿´¤HÇ¸¾Èæl‘±R‘ÖõEšµ¹2­•Êt®/ÓªÎ•é¬Tfíú2íùvÖV*ó¦š‡çJCT½aˆjsÃ^UŒÁÉ½]µ³únÒèñI„”bäñNB\' ıóÎ9í"‘"£ —Á9’
+¸|Ÿu"ŠÚŠ–ØªB¶F’†#>öØŞ8Œ?1­=êÀ1)ª¶ô^¨´uÆš‘„<¯ë‚ÔòK¬İ²à·Ó²á·ÛªùÑÇ0LURRÑ™½Ù†¿Î™İê¶Iy4",|LßÒ§ÀİAFşlÈ\\;³¶1SsÙ”Íi`>»A&#˜ó:ÈiP¶ìï.Œªÿ)`/İv£ã2íB%éJBPƒ ¦»(O¬Å,ÚÄm><¤¡Ô(Ó‚$"OÚÏÔÓˆ}†YgÖ&şÄ—’Ô–cT–PÌ¤•¾±’	ø;ş€Àòó@\\ ”Ş·énÑÆ«±nğÁ®ù•;V-Q²+E3´ãÚìÇÀÿ¹Q¬LZ”ŒÀ‹‚*@5ÎÈ,‹Ç¡ßôz?2Ş‹q_|4òÈzs#dĞ©iK–9aj¡b L—2V‹ŠXM€q»rè@øGz€êlÌï’Á9	İsîóù+;aZºPoÌª¦H¬®ÉÈd*ıÒ<rØ¸/´:Ÿ±nÖšô¬Xbà"iLå¾Mºz§µVËÏo8õjú§Öµ¯@òË8tË\'±@×ç0ñ€Óª Y%!0B>l{"ÔÃ±RI)b rÄ°´&l8öbW¹Ü]ˆŒG”›üÚYÚLTAÒ~%‹à‘Ç/Ø¯¡ûIœƒÈ¡ôsJ@ ğØã‘Ô‹Å4WèşŒu%İµÕñşÁşñş«½ı“56¸z2ˆ¤¸‚%…hÅgñ ^"#Û7¤‹&rŞÑ8öáéÃtâö/ Ü½`8r¾–ØQÀFÄ	€ OÓxËlÖªe³‰ÄXµ ‰õäöÔÑx±Pb#ğ†fVëEv¸»ËŞğåğšõl¾hTŞLàTg‡ 2jâÀ+±~,wì Vßõ¹7ÁqÅ\'ƒp’db–¡ÇûhäŠ–ªä:d=|¯áÿ~×ë!¬È!t^àvŒÖMcŸ4Õ€•:"Œ9ªu&# “Ã2ê62¼UbÏÜ¨
+`‰³¹©V½
+Ë0œ"´Y/;æ·ÍëìHgO‘M ÃZ¶«³½ˆ/\'>ÿ]¶Ç£ï
+öº—èˆaœÒ.¯‹k­¦£5PHƒCË Z®o×›å†ÁvC?ğº°ı.|c6›µ‡Ÿ/°Ğ<ÒG˜SÄÔ§!¿-ü×D÷¦°ÄSqéz€`Ğë`°7à#ä§jÔÓºYFõş³~ ìjd^ı{ãá»¹çñğœıêâØy0÷K„ï` "œó¨oUSş—`ŒÎ]¸:”6a%W–Øï§3Ó é_G­¬•\'˜Q×MİyøÂÄ=ÉD»æÒ°Â<…fb‡’™	(ı‚ p"$Â³tGNè—èğ·‡Dâ©tÎ4°¦Q6·MkÛ¬ÖÊu€\\x	ü8ë
+ÆM~±½İ5™Ö¯tTk"0¼€û×ğÏĞÊ6‰óv8¢Jê¡u›iÀ¬zã.In¦â*®]%¡VÆÅÆ½ã¾ïw&$œ®ËWîx³ºÆ‡^ÿ
+½C>ÁÉ½Ÿ­áB½%Â	èkÌlİÎ˜ÛÚ¶mÉ¢4ØÑ›à‡ÚK
+Ln ÈøÀ¸¬ÉdŞÓq¿á4tûıÒ4:şmìvÎ]‘P£—ãÎùú‰4	hTF‰LÇ¤ş:Æ6Ş>Ğ&R"ç5àÄ€úşÎÏ]WéT÷¹Õ¹#›«H>;çÔ9ÂLV}Û´ö4~Î¯å äb7_ãÜpƒFòËI/_¼úu…‡ÃÏ`ÈÓ®Vù\'³ÈR¦amË½	=¾Š;§é& ‰šşl;ã”L…QÚ-á	€>šµë:åœòf¨éö»®˜Ó\\÷0xÎV¥ryy©}·|ëí~%—½±çÆmG£ŸÆ-Ûú¡ç·vw÷öNôQ·WØù|.›tä+qÚL²ÚÁŸGâ{OL±Ï=o<XuÑWş/‚bDlDú6À8…“ Î“ìÅ+ºN»­ÅäòóL„í	P‹PÌ÷=ğÜá%œÊ« Qå0ğÏÅ$úáY€&ÿÔi•D›’×¢_/^¿ØÍDÆIÇ`ç»È!îú¡Ëõ^Xi»~Eä˜ŒŸdh™ÖşŞ‰ßş*–±˜Z¶İ(ìÌr#Àƒ·ånú†Mñ{Œ
+[[nî=8T¤í–4ÜZ<ÑGÃ^ÛÓƒ°_ù@¹*ØK¹ÙŒ“÷@zMD„	iº¤&|@¤áp(ë1îÔßÓË€Mõ9éáZtéçÉØ‚K˜Ä¿ùNÁZµ†¼££Ht:Ü‡•Gå|0¯Y1@¬µ$²í³c!mcoí‰B`-:‹¢_Âş/=wÜ¡>şˆfg¼ò÷úşHæ®p)ÆÂâ †|äFŠÀ!QÃM9k»0]ÿçÇ?ÄŸ!ğì9İú2­… O£æñ·±ğ m£ŸŒhWuJç"$‡RÑøfL¹1•Àºcø’nÛ¢ÃşçÿıÁÿ&ĞCJãI\'k eû|8j‘<¾H \'n¶ÉT22Æ@’1Ğo„ÿC—ú|çÚf[ËN¤/9LJu‡¼òAêg¢Ê//N*Ø°+´k—(—@-ÚƒËx 6dÜ ÉAØvc6 ä9a8Ò•jÇ!vË,–Ø÷†©[úp[oH¥£ÜĞ®‘"îŸWğNQExA_A†<Û<¯‡ƒ€ş¤3<-îÍ9÷.¸ŞÃÀV
+»4¢‹Ê(
+<Ÿ~kuÓP³0ÊjG#İ‹Ği#b-pò/|x55äŠpMŸoœå…£l/qÿ
+53ˆN0d57@‹ú*-æ]`àà“d®/WiÖ•˜‘Óh:0ı×@£9§ÊKÁÇ-³N3w^€´Åjz‰l²”d"Œ	Ê“Zš¾‚+ol«¶SätnŒ„®J?áâştY‰:.	QQå“+¯¸‹;Æ$_ìÜa{<Kj1 œqÉ‡œõ*cÒcîµè÷>šÔ¿ÀÄÂõŒØ› ôºØÄ)!x ØçKÌ©_^/D"×	)!äP¨á%Æ‹Yœ³Hé¹¡hÚ]PÓÌ¢şŸ–§nêäû9°±şa¬S¬À·ÿy|ã"ù"Ç$ÉFIkÑß´#\'PøÕû½@NĞï;A( ±c;ÔIÒ
+Ñz±fZ¡™Nœe¬K7ZÔ‡ø2(_òIæy±Ö½9\\v\'—{{‹:”¶#GòXúbx®/@P†¯T¤£«ÄÜGÑöÅÅ½ä¥ÿrêùƒ×Ç‡ÿx¹»Æ
+úÃihbfu&¤¡•f	ò…}Æ/Ü.Šo\\<Sº˜pyIOh(¡ò}â°9î3Ã,¡	ÆH9Ïõ¾Å®4sóªXÑÌòUñÌÖÙ¾Ş§tq5Ò®ŠÚÕæÕP"öÌ,9ğ€¥‘¯?‰˜kQ_Qà ®•ı5Ø«T!…ĞU¹R	¹]±CÍ-±ÈjÃ­hî&ÜS¤˜ºî«ÀòÿÒ|%öd„óÿ|÷’{Œ¿”€Ñ>Ng0>Gçmq…ƒxÃ „Á…²Àyİ‰×&ø×ŒbË@ÿg³˜øA·¬.­¥î¦EŞ´ç^¡õ`cD‰s¼BbbiO¦´ƒqbaD>µÕ5èôGy/ÆÓÍº-Q¦¯+H(@¤^È8¥›Ö\\p±¹°*ÛÛ=|Á´=tøPZÓÂ,³¤Çñš„dÉÇYåÂ´¡Í™WŒæ³
+K"-¡MéïÄAˆÑØ{
+ ;³oÈ÷ÊQ1–6–UX®pq±Xáâ¦¤VU…Ÿ¢`ÂŒêzx„g˜èæèV>zƒŸ…ÍaqóÄJC8”Î‹[Ó¾¢Ÿ.2›_“ˆ/1¯èöE²ÚS÷i×¿yÊ[¦iŞì¼»ÅN	rÒim²óÛw."Æœß-ˆĞ^PçVßŸ1´ä˜m¬ÇĞª•ğ‡\'8¹@ÑâJmXKÃÖÉü3	¢(gÉrÿÂŠ<ìË;²uozÏM"@ÔÖ£—O]tÃCı44¢#^ ko.ÛÀ.ÂX«ÿu]‡İ[Õ%­ù-s=ú8†qoáæÁvš7¸C3şÛ‚S¼Wº‘>…WE=pŸöŠ¼4DŸÖé-qH6­Fæú’2^š²şß*Ê!sJ%òÍÄ¶yqJMMB`Hº©3”nœY›fæØ¶‰X$‰©Y3‰#RDã-æoĞûø ïÎ‹oıMJ¢2(é]EÓÎ7­âß6àB±4‹ŒÇì8)”VE·ÄÆQâğ5Ê0Ç—ñli}´ˆDÕØ‚
+[L³$ö+Bqj•ÑB¦‡#ÂP\\Bñ1rtÑ¢n¥Vd_ĞŸÛˆ½ <q1_tWÈ”XO«Ÿa@!u^0@S÷à"ğ‚8:Ÿ ç(.|iœÿaìOm¬‡«?ypÍ)JE-Š¤ûœÒ¶lN.ğeºÂ ÑÒ¦°4©4a[^!wSy*ì†ñ8d¿p˜Ñ¹Ë4@Ê=—$¥Näé#/áÍ5ñ×=¥ iÔÒ›ú„ÇnÔseÄK@ÏËr‡(SÕô$dmŒ *5
+³2@í<sÜ{íáf3{ÉIƒ¢}èÙ£ÇYºM±	k=…î{zj¼M{‹ÿı ~Ìı\'3+šzS|÷Nu|>OÂGJ›ä©FÒf}MüY¤+vÌÒõ$^åŸL3ËV…k.E+ÃÌ¿‘Ÿ¯ÙÎ”¿‡<sÅÕ˜µapä‚,D^ –8Aßâ®|±¢“)yL;ƒ¨ØkCºR`¥8¼Ô=áXÇ¾{¡ûs]<KQsE†õ÷6¤u ‘(Z”Šƒƒ§õàîQÔ\'ù·Ò·§‚Î’aMãVÄ 	©r‚Âc$àaK`OªEu‚Â§vÕŒÛ¦`¦9¸¯‹?³R2n~±"•Š,éÒ’¸«sñ}FkäÀ¶JÔPË®gKîu›öÒ¤ßÚÍıF¹„¡"
+Ë²SÌ¸7É§)1
+K#1ÇáßÑÁåv«üÁ|÷ÿ¹{xôrõÿ"	°qïè¢eUuæ·àç·–iÀï™Õ¬ÁZˆ@ê†G«
+X øM/|Ò="S£Â‘´lEâ#Sè@
+Æ±™ÔÉ’LLk˜_!”Á—›Ù‡»ë=¯ÕTd[07)’)ÌĞíŸ+ªU[­²fn~Iê ¸3{›½Í›}º>CÆ”J4gÓšß…¶¢å´c­?üZà[-	m`}¡‡ô[!ÓÆm\'¼±ğfº q
+îá#w¬;Nq{ytòE˜æzˆ’(åhÀ
+ãÁ†ªİ®ÖáÑ Ä‚ËH{{½/Aï 0…)aâ· @ ğıİ˜àpÕ>ÌÈBª‘ã1ÏıÙjM³C[¬÷Öx·Õz.ïÉ‹$EÚ rlÖ ‡9ºn¯§Á-Áø¨ ¬ÕVËØbÚv„/ß¥Ğ³ï½•Y­/‰JOŞ‡Ÿ{ël(Àßúïß:EZFŞxo!·‰}ÒÙVÚ\'>‰EûxÁc€»C“P-¢T=Ê§.Šœm¯Éù»aÈ\'oÙ÷@£)jC‰ÕP-ü%ˆÄhÀºÈ¹şÀ‡†mzÂAc\\îsôMKgm=úÄqwA¸÷ç6;Gs ø.Î6áÒÜfÏ‚·ÜÙğ\\†ß!ê·a‘Œ„ß=ŞòóŞÉO‡òÓP~êÉi ìû²ğoTµ £Å­?ş$hD›-? xSbÑ»´·Õ¿•˜…ı…	7çñ®;tCö:ô‚Ò„:*mnÿ	±ÏÃ2rGÇ¯Ÿï®1æÑwŸîQµËqbûì­òû}÷îá¹:íh÷øEQnƒB¾=]¥È"ŞÁî­ô5qFZ%Ñø]TÑ 5Û)¾»#ñDì‰çŞñë““ãıƒuv‚ß[²gÖ´¬Ü¹Y<Q:)‰Œ½ÚÉJ$„SyKwÖL«aå[y•iåòqœÓssTLÈ­ä4m×hTÍjVhOŠ[a?ïG0.ïKfağ_)z“(I$ñ\\Ui›ÍÚlU­,2¯´OPÍÃ7«túöa•—”Øhä,ŠäNœRÁà›åT›fnô}Ü9¥Ï)}9ÀÛ¨^Nù&ÁCùTğĞs“##)\'nr9¯=X@Zîìâ¾$KÙa”*•ÊŒŠ¨êWnG*<4f•6ßû)Ë*\\ëˆùK&Èú†ËxóÛ]:?!Àß|î,Ú+å—TFeŒt2p?vAr T˜]ó z®a8,`/pI‘¨H™µa‰ğ$jXÎQùècU­ßéjçğPlaÚğ^2×0Ör‰‰1,¼ÑÀÕ”•<ÀòáayÏšgÜ¢Î¹
+L‡JµÎü¹Ç%Æa5Å´µ=.ı%¦tˆóë‹Â/¯)!uÚûdÉ¹š÷TºEø°Dï}Opé‘†á8YT1&ÑO›~«ô[§_]×ñ”`:ùWï8¾";9Î™
+‹şmÆ„\\Æ¦™c­ğ˜;/Dzeœ|c&7öÜ1«ÍQJë©®ÛwåyX) 0Ûrú[m6ÍÆ‚ø‚èg[2Ô¡Á4ÇPo‰³¢ªG0ep73S<¹u]ÀŸ¸g#  1`57îş™F­êTg1.L·\'/Ñ”©Ûe ¢,Éˆå—(O}EçÊiß(ÙÜ©Â³Ç²¼ÒÂb%Dë`iz€Ïó‡©%ì„<z¹]dI:nØ‘Fµ!ïºc RpÂ*—6¬ÖlX1§Œ3pVDl¼¦ I˜burî‹H©J zĞRã}º£sÓ(Ô,;ÇK–5D’>0ÉT¥÷ËÚn:NÓÌå±%gÑÎŸ/*.„Ÿ#,r`Ùx„”Õ´%;‰E.šÙh4ª3P¤\'ß›LŸd*W¼<,?\\ßÅİîŞ~vpM´t×|á1!hîB§òz“è"7Üùh \\}2ïBÛX>1WN¢hYÍ;wN¨æ‰E…:{PŞØpƒW§˜ÖÙX©ÎOï"?ç“9Sï™U¶•×Õ¦Í´^â²cfõ6o·&ˆ™=+!Üv%‹$æåËCX‚öb‡}±Ôq,HRîÆ\\ Mkèj0Éî%±OÎ™¸ 9¸U²‹™U2jR£d(n¥Jí9Lœgx.JºĞå1å.,W²zÃ–ÌÀ"­×~@Ù_÷ÿõæõñ³5VŞÁÌöKè^<š”| \'%ôÊ(ùâò€¶ûÓŸ_¯1Ìf#k8“éü	!cöé@—‰7ºYúœ!ÜãÆ£|œyÀeáöqË4®;7d`í>HîAØ*|_¯Á4Y¾ìõ>ü;8˜¨´AÔÖ¶/ñP³V„(|ñn7ynaW„t›ğßÓ3#ŠéY!ïpLÔçğõÎú»a6çO—ÔÈ Ú‰h}f¯Mqm:¡àDS¹ÏÜffÉ¡ŸRs›4é~…Å#Ö˜sùYW]ønaŸflÑï³±S“ëš–Zª¥ÿuC3Cœ53RÌÔ’Ü´Œ\'ípÇ4fWåÜº¼v6KÜp›‰eÉçlr]‡i,C­…4¥NK$Ş1iÓI~›ù›ÚÌƒU]`/Ê…‰ÎlYù5gÉË¼}ÒNğ­Å-¢ÓÛmøé‡ÁØï–eò÷=øW«v–HŠíöÎ—,Ù´¾hÃ©x• Ó(7?Í›ÎA§YõoÉ%L¦½aÜr
+;ğŞ¸¤·oà@®ùÚ6­Â½»cÕÂ±Àwü¼&[/|r˜^K(Æg õ•Wßéüëƒƒ“ıÓõ¢óFÉ¾†N/jõ|æåılû¾><Üµf°™¢Ç‚w¯ÀÔI[mú(	[(=A"ê˜%¤]D¿’ß:Â–@Pá^ĞÆäŠ‡ßä"[3 …È¥İ€­&4YVÍ˜WŞ¹rı”¾]îô»M“‰¸£3³^È;qÎã+±Ü‡’—ï)|9Æø›8OK{*BŸ‡İ"ëŠŸØˆÊQë
+öTDÑ¤X‚Œ»t†àÑ$ğ>¸YšÒ½ÅE<º¨Öãa0FÇ9œ\'Çø ×gÏ(r+ƒW!ïŠ­;L‚|¡ˆ1i4˜Dô²!”E®‡”ÙûQŞ!Øq0áz	GìD†ŒğL«2L7(1Í)nÖ6«f“ª‚WG<tñ°ZÓ¦h"KN.%ü<BÿÊQš^«XEš¹ùc‘U-ü|ÄPF´§Â61Àü:Q±suf©\'øi~<#m±Äãõ÷„I²`\\İh>¼a2¦ëÑ
+`×¦!ˆÚÖª1(4ÜÜ ¿¶ıİ­w¼lÓÌZïl kS·F•™½ñBj@0ÇòİÓ²ö©í¨Ç“ÒXr.ñ…¹m×sã	œ˜Äøì
+şÔN–ÜqÁb—*‹ëM³±¨r7
+†ÚDCÖñxI•
+œÇ2
+ Yît“íÑôãÍ·ƒ1´¾•Ù m"’Ğ…ä0b©hš&ÄRkn©Ş·L+·ñ¸Ğ“Û¬XÜS£ÌË5èõFnÇ`—ı:¶$É ™XÌ±tdkU\'··#·³`ñ`°|Ù0ÊR¯Ë­9Ìü-na‘œEs9 S³ç"Äó§új›uÇIUƒµ¥àÃ\\9ğ	X•İ
+^ºF¹³;$ZcZlĞµª®uumÓâ·Ü’…o¬ö„+*.;ãvª¶lĞOÉªO+Y-c•[Bk­Ø†ñ 5í¥¶ q£ßRÃœiÍòe¹2Ä)#l¦ñBĞvâ[è%Õ´O¥†¤bQ9Ë÷£nrØ¦](Ü”º»î¼ö{WGŸ€=åìjÔ†y^ãqØS=tvú
+!w°î¶ƒeÔëvuŞ^D¢5ÔKÑ¡Ê0Œ¢È%ü’ä6ğë/´Au›¶LM¯°ÿTıÆ¶Ÿ¾àN‰ƒ[LM|mğãÀËş4ñÑ´kğ‘mãg¹ªå¨Ñ¶Zäã¥A{`háµ&æ¶¡Y(f©AVª.õzR}nÖei¶å`fØ¡ jÇØØdÄk£![cæwŒj½ÖüìZwİà™şø¶Û3Ó_?îÎ|=Jf–¬uØY…êÍVVFÎúº‹2„Æ½(`´çì²˜1Cq¸ı!o \\iÆò4ïC—˜ZÒx›,FÉJ¤Ì#uå¿ŒC·|pQ&}\\0ÍŠ(‰,hø°çñ„cå9-Ã×6Õº×éÉ}»Q—–Êœ‘ôùàe†„Ã¨Q·Î–e÷×Vª-óa@"P»†ƒ&MA\\;<yFÆ˜/OgY¨×aêÆIÁB¤­rWx"NöWgGĞü½>gYÂÂÍb¶YÅÎjÍ†™t	‡-˜QÔ#Õ‰´1õõğ¾Zê‹ò…±áD{ë¨[¾Cø›u¦Õºcæv÷ñ8Ô“g>Ù—C3SİFæõM“Ô>s7 ï©RÅ²–ÖhN}ÁBG[öQˆºãx‚Ş¾1…Š%‚ÄŸ„Yôº‰È¨º)âÂÔ&ªí–zäz}^Y›ø<ªÈ”íĞLhb8a8õĞÁe o2`o<O¢¦Qce öïB!Ñ¬<¨PZ——åÛ@®gÃşZ£‘;¦C|É-2ïœ›I²_ ¨Ñ­t’ø§PR¸Óíõèt¥×/fİ¦6J¬|•&V¯iâµ¤ø”aAs~Su¾E:azkN!˜¢ÃA$’g¸ÛC<„h+egZg~±?)ñXî+€¹æ|n]q+®æ*^îéƒ¹œÙŠ•sX$5ıQLqÈ#C¹•“,ÒŸİÏ|Èd u†i ]ĞîHæUßjDNƒ¡"<YŞ¤İÎ­qÆš²/ëÄ½,mK.óX2&ä‘©µf­QKk<jüo@9m	Òø?ªì¯ÁÉ	0Ú€ânÖøS•ğ~H	‹Î
+‘çİ«éKŠÍ§û¯N^¼~µÎŞa€ş tÌ1a.<>tÀBWtqŸV=y+ã¢‹8
+|õÿk¬Çñhû]WY$|ÃRÆ¡yÊí4ÿ´^vìVÁê)Ú^ã:£Ç«Õv®>_Àû‚›VKš15!¾Â~•ó¸_5ãÙÙ0_¶iå4 –I²så`lŸ
+&î#5›V3İ™rœ&f©V©8`·šµlgŠ´/†Ê‹7ÍôsÒn•aÌäÊå£­¯ZÍ„ÿÍš™ËŒ½ù\\Ï$\\wvLšúøÖnES_?î[ıåö­^¾xõë:sdê¨­pÌƒ,%…7WÅî˜qŸ»PZàÍá~yy©w"}|	Xè!#Ì+‚1JyQå—\'7wûkŸ½Ä~Œğ´˜²C©7&C¹¡Ú3ÒKì÷ÀÓ¢6Ã°^•}¯çÛKŠ)Íf`N„`¨ú~@iõ?agÈ¬ø?wÔ—ÁISŒQ…P™Î]?’g¿b)E¡ğ§¹&,mù¾d«Ï;½C¥%ŒMè‰7³!Lşyµéš4j…øÄñ9×°ŠĞ"Ò=/`ÓJ¤ãUj;×gÓü@["ya°Glœcn£¾dgÂd\\ÉbÊj®I$Å[o Ü%Nİ7Xé&ó™íŸ¯`<øàkã¶›¸¬§7ÎLƒâZ&[0ÀÎ&öŞ¬- >âx*ÅË70W6Û_ÒF†yU;<Ê±E=ìİîXÈÓèqˆ‡°
+<—á‘¦ 5õóU¯Hìaqæ-–#~“-7·=~$÷oäª¶Ôâ(ˆ\\ò»Q× ±c7L}ƒÆÃÜVºTÈ]â|â
+ãR|\\Ú-P›"Iir„PLÚåksÕ—6ÙÏù2ÍW—Œ‚÷\'pÛë¹è@Œ„•Â>\'N›·|Wse»
+oBçåãqïÍ3;	":|20 âİá{—pğ, e°s\\!CiX$Ûzì»¸	£:ŠSWâr<û¢»RÍ´ÕÛKháÆãöÅb É(®otöÆõèˆs:ïò’è¤”`ØE§û"¾ùñGíu¶_ÛŒáhx¿H£§&Û£>ø+êƒ-ùÖTªà*ªvI\\Ç»œ\'ƒY%ıe7©8úTú3Ôèct<Àâ¥—Âx¹˜ò;ÃªÓ‡†üÒÄ\'åÚP7¨¸†YŸR ›¦åĞ÷µ†ùÙ*_ZwUùN|[•ïô×*ß¿œÊwıØaıM®«3>èt”¸Ì¹ünÁJ·Í’Ë3CƒÇlbÂaü…f–e“yˆk „âG”¤£ä¤?ºYô¨]ÆuØ³\\‡u­}§<†i‡A[ÄvØß¨¶ïT9öÁ_Î>xuu~3}Z	¯ÊUzÜ´¢åL³nÌYN[»=¦AIÑ*8õ“ Şc¾>@e,…zÕ2œÙ³|"†Œ_bÏ)Ëı$Â@ØaÀg¢—ÈÃ¶°¬oRÕˆ8Åœ{›i‹pÖŒ¦±QLˆ˜¿(7åIÌÔÒV3¤ä£ò)b[®¡Æ\\ÖlS›õ•šÚ¼Ï¦.×«~uŠp»Å[­®*#çÎ-S´;ŠËË±7æšQƒzR€ƒ‰Î˜”~ÿğø0İñ@›q«Q…©ˆ\\Nã8x¤â(ú¨TE„A£›ìÿt,+mÖr=*æªÏ‚ËÀ¿k;Ù©Já…åİ‘<’DÓ ÁäF²3BR7ë|C³Î7­lR-,ôWV>>ÚNß³íô!$eİÁvúQ¹š*ò!=újÉ/Ş©IøT”ö£ŠrÊdµF‘~U¬Ò¢‚™uørN	¡ÌYI›Y%-#Y§âåØ%VÇ·™r³)K-²um4m§)Mdm+	ä"bÍªeª£jÔĞ:İ7(KÓNÕ¤–I]³
+Æb`±îê=¯ÒJº«&súãÛj2§¿~Ôdşå4™ën¼z¯Ö™Ïù8Š¢="ÊFUiÒ(]¾Ë°>j*?#„m-:HSÑgT¡Ê†FéÏœè¬ò ˜åf‘ˆÊ2ıwîeàÊ0§(Jø)W¹7ó‰aÍ_¡]•&Å•Ø£UÎx¿g}ƒÊZ»jZ³çñMË¯WgÖfÃÚ˜(Mú`©(İ0Ìœ®é¥ qdçgbèÉ£4ïÔë Ug²õìá±Ò4—
+[ªNü‚gŞBãr®¥EíƒÏğÛj=dZæı|$jÍ,[WÅ3‹g°étçªXL1ÈrÅ2æÊÀæoüÂ;A;lçi~VÎjçf
+±Ç{B/ia·¤‚ßd8îH-ç×·]óÙ&3Ó
+–Ÿ$Š¹š¹Å}åvb|]04Ió¦Ì–SÛÎyƒ¾ŒBÌ‚A#P™;•˜˜dÓ¦Œ{‘´»¹J»lÑeuDĞTJÇxÔÒ-1|TĞ­Â63MÀ³<à]%åÎG¡Û2çQ3—N‘ûÓÌÙršÏsx–Lh-~Oø}:ÉYm¯BèĞ$ŸÀŞÚ%»T}—œ`:a(Ú•|!]ÜhòÔD{Ô¾=ˆÃ¸Yk ‚ËBÍ)ÒøÁüV£FE:†Ÿ*FnÀ[»‰âÇØÆ±§Š:5
+ˆ\\Ç4²¬7Ò;3yKùèúK¡òdÉÕfRÖK-m¡V‘¶[*ÛL­·d¯d÷¨†¦ì6*Ö>ß¡œ–Ô=Ê§¿¾µKùôçj¹¯yRåZ¨åÖÿ¤ÊS`ÿÉÂ£z"ò#&Bû?¿wnÖC|9Îì›8ÌñgèìPg{ÁÆ½–!y‚H„%ö\\øx‚R ü…§SB¯¢gnÔ	áSöú:,ºz‰ŒĞ÷J„åßEèñ~‰½úW	3¦¢é˜ÙÄÍ’SZş¦ñğÚ"èï¾Î~G€\'Ğ‘ãŒ‡}£Ş\'€Jº»Ç‡íĞíöR†&pèe”² äI¿-o‚ÛˆÜ{¨É¸şÍŸ«"ËWgVqƒ®frcêÆ6Š:;òìÁ–õÑñëçÇ»‡kIíp÷ùán‘=g[­dºÒlÕ‡£ƒ#H)±ÂÏN¡øğ‡ ö°‰Ğ¶Ëxp0öi­iÏ× ]{H|=#­·¤A[/7J¦cÌFËXI„ËQñı÷5<®¯ÆúÓ”HJrU³á(áëZºÓA<­ıÙMªc“ê‹›d5ÑÓ?“ˆÉV±¼¬MµûÎ’—tÍª•¶¤öç[š¼zÍ—|qù¨Ò»†S
+>ğ=¾Î¾àõy¸ÏéãhÒÅ š:KËãWÄHî[äÜLÃ™O±*E$xØè<•
+ğ™è0Ã|íø¥4€kâpñ4ƒ_±+Só+h­GaŞ¥X†˜”VttøXbºGÆzdÉGÆzÒl/5Ö#Û½Ìb¯¥œuG&c=e·‡eKc;i±\'íòË¦Õ”K31å³ªY”Ki¢\'Íú¬º‘öYJ\'ó>«fÜ‹rískŸå€\\{t@^ş)³½õw@Æó°zçáaÂèŒÌ¯§®¡ñ€İÖÄs•:L’Ÿ)G
+R\'béhE?_ı \'~õ&¯p¼½yÚn¨ºoÖ¿ùvş‡_s‚ÿGx2?ø"½ƒ_qmÎ¯øºQVÆŸ÷(`­äM\\³VysväWòş­İÚû÷;àÚgxßcËWò®Íê[uvØVòôı\\ğ¨J|Œø]wíÇcV>0è%Ó@5Ÿè\\ŞêAØW‡éM
+ÿ¨qMgÊıi\\ï—ú"ŠÓÛ¶hjš<ê?¿¦Å$ü#U$*m›ü†IZ­“¥!{S7M|Ñ¶‰M³z/[–4•DÅéIøEÕ0)j¢EjÍªc¢Ö³Z£Zª«–ú2Ûh.Ù¬a³šM4˜4‹6šFÕ¤i iB‰äìì(…)HyäjMªÑébÍE£ş\\ÛHZw¶œşúÖ¶‘ÓŸ?ê>uŸë ›Ù1kÁ›Öa’Xê¯Ã†Ú$Y¶åÔìZóQ™zw£ÄLsîŸsDşO(w%é§HõUš®Ç÷_F3¸ºöå‹Ä!\\÷£7nˆQwšsÍË…ãƒZGÜ%³°|\\8("Õ±Kh`Aß¢ö”MŞSgNá,h#Ğƒú¸0rˆŠ”‰°rJ2ÖašbÍ¥ØÅ’®ë%èz0ÑĞG,
+<J‚	+w`Èœ ¾åîö˜k.D£­jöÓèx2Š#7…tæİ{)N253Å»KÕ®”+S»*§fº‘êÜ(ïÛóW•›ÖpKµé#.K+­-­ô\\UŠx^ó§u-UˆR®úl]\'ÿ8däÊ$D‹«cƒÍ¦’h«ÿ™Öø¨\']âVúä1Îá=*KñsËZ~„ù_\\Y:{Fü/A4söïqçHöõOô($ç~dmî‡¾«´¨‡|¢‹¯=jQÓ)tŸZTàŸfYEDêIˆÅf¡r¶ÇÏ¾èäK15u¥sºRT.S~9}êÒlÊÆt¥LÊ“}ÅlÍÕóIãÖ›2ŞƒÊİµ¨S_ß^‹:õù£õkjQíuĞ¢~
+·Û«,Û6sBYzpnv-9g4ı*G>˜FgŸ¢ò!X[ƒÙ)Ä3Ywâ L”SªVë^®èi6s 4³‚Ş¶ÚÉlÔ9¿xf±M6ı’è•ªKZ*UUmËÌñ¹zJJv£$ ¤!ŠÇÜähì§"o¬Q·3iyOtZÃ÷Gd¾Œ jÙZÌüsºrŠÌÅãqÓ`:š	úıbæ³˜ÍVe5VgÖ„şLzcÂ;ŞšğŞ¤[Ø¨åqm3g_õLô\\M{Ês–õ´ó"ÊÕtm1í|ƒo´7:º®+t7ÄFo“H“¼Ô.uP"OwFƒMÀHÛ–uõ<Q/4¥ğ©0{)!¶h•bÕÊ´#/|ù€†a‘RtÅÈúôìoO”ÊOj<	¯` Míw€0~”" ¥›Ú®F£ŞÈi»bvª”~+âZŸšRõ…êœ6Z¶¢>\'9àã„	ÀOğXt½‰Z6S*Té™*iû‘I_ÄÙ\\(şèŒ+¹¾4äåj®K»O“v/yGœF†ñöÆm‘§!u¨ê¼ß%"…q[}ÙÔ©Ö‰F}údõ\\ Îä84ÄìğøePp?yÈL|¥YA=8uÖõÉ´õåHFÛíCÑçÚhÓ,¶üE¤ÉÃbk×0LË²àv><­,‘C¤Âä™FXÕµXÒ€º¤İK±†9­­?%óKı9)Ãà–×©æ—Î´¨íú­À“ò¦<§s*õs€|;Ë}4Iˆß(¦`^nŒü¨Â{Tá-‰pâÜ÷]v*‚‹1“¦õõ8}BSìFè¸/bİ•nÉª~]İRúé“
+’3‰JˆÊôHğoooZÿs½Usë ~€‚ü|³Ô<™Ó‰L¼#ŞLÁL€q-ùécËü»Õqà¯	f~¬*üØxç`Z_60öÒê¬ê¡18ÔÔúÀGÜ‘ ÔQË¢«p-ìd\\I6+g{tdÃ¢FåÉhgºë\'äQøm8’î+¸[©#N‹ ½nôjH6°ß-œ>3“\'ÉŒO2i”È¿ÎÁ—Ğ•Šjÿ2ÎÇ#Âùÿ;›ïD¸‘Ê&»£à <_açğ ;"m÷¢F½°°s Õ±^è
+èæ5Ù<>Qõ#·s]® ¶T¶#¸gÖâ|]1L•ïÜ_Sé	4+ÂÈ5ÙÚHÏ„Êø”çDf éÜ.ÎôF´÷xr¢€|È°$w;œMI›3nİX}2RºíqŒ|×%ÒT‘Ô3ÂÀ/n é@x£A8ä×dCîGè–L‚Ó4áXÆŸ>y	èáº¬ƒ éÅÏÁ5õw<ÁlH:+Ÿ¢[QN”F	‹«<•ñd<>PˆsNçŠÛ¤°^v~ø„,§¹ıÃ÷V³nXpµ­zİÎéÖÔI———úlT…ï°Óršæ6^«!¯–-¯6–^iÚJŸ%˜ùP@]=[Õé‚ls[êÙ±í	”2Íã»^laSş{¶………É¤ş›A?S¨g
+ëL£Á—h60€cv>yğ0ˆáFcË6ÙşÉ)Ñ1Ğ±‚CSNÛÈFı»<\'1Sì÷dîĞSÒ˜™†äè0’§DNÙKŞØ±ê/}B²z¨Ô”êfÛ-³u–âNoÇĞ6’L?¸ùˆÑTGEúhBä³a\\W™LÈŞéIQ\'Ãç¡˜ ~Ç7ìU€Ç@ĞLÀÅ2[&µ;TT_ø.xgR L~¹İ–UmÔ;ìlâ6Káö ãa¬#Õ”Ã«.¸ëyì»$!^ˆ.`Ò9bsÌŸ„Ï~;m«—S$V-q¢×í ;Á7¸jw¾ûÿ ±ÎA›h ',
+                                       '_rc' => 200,
+                                       '_headers' => bless( {
+                                                              'connection' => 'close',
+                                                              'client-response-num' => 1,
+                                                              'date' => 'Wed, 09 Dec 2009 02:08:48 GMT',
+                                                              'content-encoding' => 'gzip',
+                                                              'vary' => 'Accept-Encoding',
+                                                              'client-peer' => '192.20.225.81:80',
+                                                              'client-date' => 'Wed, 09 Dec 2009 02:08:45 GMT',
+                                                              'content-type' => 'text/html; charset=utf-8',
+                                                              'client-transfer-encoding' => [
+                                                                                              'chunked'
+                                                                                            ],
+                                                              'server' => 'Apache/2.0.52 (CentOS)'
+                                                            }, 'HTTP::Headers' ),
+                                       '_msg' => 'OK',
+                                       'handlers' => {
+                                                       'response_data' => [
+                                                                            {
+                                                                              'callback' => sub { "DUMMY" }
+                                                                            },
+                                                                            {
+                                                                              'callback' => sub { "DUMMY" }
+                                                                            }
+                                                                          ]
+                                                     },
+                                       '_request' => bless( {
+                                                              '_content' => '',
+                                                              '_uri' => bless( do{\(my $o = 'http://www.research.att.com/~njas/sequences/index.html?q=1%2C4%2C9%2C16%2C25%2C36%2C49%2C64%2C81%2C100%2C&language=japanese')}, 'URI::http' ),
+                                                              '_headers' => bless( {
+                                                                                     'user-agent' => 'WWW-Mechanize/1.52',
+                                                                                     'accept-encoding' => 'gzip',
+                                                                                     'referer' => 'http://www.research.att.com/~njas/sequences/index.html?language=japanese'
+                                                                                   }, 'HTTP::Headers' ),
+                                                              '_method' => 'GET',
+                                                              '_uri_canonical' => bless( do{\(my $o = 'http://www.research.att.com/~njas/sequences/index.html?q=1%2C4%2C9%2C16%2C25%2C36%2C49%2C64%2C81%2C100%2C&language=japanese')}, 'URI::http' )
+                                                            }, 'HTTP::Request' )
+                                     }, 'HTTP::Response' ),
+                     'page_stack' => [
+                                       {
+                                         'req' => bless( {
+                                                           '_content' => '',
+                                                           '_uri' => bless( do{\(my $o = 'http://www.research.att.com/~njas/sequences/index.html?language=japanese')}, 'URI::http' ),
+                                                           '_headers' => bless( {
+                                                                                  'user-agent' => 'WWW-Mechanize/1.52',
+                                                                                  'accept-encoding' => 'gzip'
+                                                                                }, 'HTTP::Headers' ),
+                                                           '_method' => 'GET',
+                                                           '_uri_canonical' => $last_uri{'page_stack'}[0]{'req'}{'_uri'}
+                                                         }, 'HTTP::Request' ),
+                                         'res' => bless( {
+                                                           '_protocol' => 'HTTP/1.1',
+                                                           '_content' => '‹      µÙrÛ8òİ_åÔN%µ¶ÄS¤"‹³ñ‘8;Çi&µ	IŒyí8{|û6à![NB×n*%¢@w£O>şÓÙo§Ë\\Ÿ“‹åûKrıûÉå»SbÇÓñøly¦:œ‘MŞ$9MÇãó+#<8ŞŠ,9Ş2cãıùò5Ù
+Q±Ïur;7¢",Gâ¾dÑĞÜì‹Ëé3m)¯˜˜×b}H¥ŠxR
+"çè¡Ÿè-UXÉ÷OGGë:DRä¤Z¿xùÏ¸ˆê(Ö£Ï£5 Õ‹—³ŒÇäè&ŒÕÜğ@R‰HYøóO–ízÁL~=ÇR_[}]ÏîámoêÛê;‘ãmË´<ùµÛ¯3ñ\'	›7™}É)MòÂY:7*Fy´5ô’hY¦ID¥øã¢d¹ê™’°ù’¥0Xš¿¿[dËÙzn,©F²é•ŞesUÄ÷dµ‰Š´àóŸÖøyZĞ¸ƒŠpü‡±(ŠñPI¶!«‚ÇŒÏÓ wI,¶sÃq&À’%›-ËRñhn¼ƒyÆìóh“¬BSè½,6…AÆšÜª¡6"yAª’E	MÉ,_¡1°wÜÉ°G&AW)ëK±4­J%ù¦…KÇVÓäD‹¸µ‚eeJI#wœ–¡¼¨ó˜ˆmR‘’nØ!©
+)®riÂD4BaZÁKéñ*js,¤9ä-ÂÿË©ĞØT:²@JrpúÈIœ€‚.—dT¬‘œfl¾&ccn$yÌ¾(	IÆÄ¶ ox{¾Dq÷0·Àî’¹çò;ñì@ö;ZDƒ·lgjéş©Zœ¥íøúN|=núÅ:¦é)Øªy®ãªE;>â-×ß¥;5wé®îwÔ×SòÙ0Nû¢Ô–ôó¼¬Éè—K–oÀÅ-ÓvI•|esÏëÔØzQšüLniZCZ‡ö¡s89´ áºş¡eN åµQºÀ&¯¿7z1â·I³\\‘Li¾©ÁåÊŸ(’UÌx$,N­êU–ˆf0èd25Ñ&¶	º2ÍM¡²"ÙËloªôEåƒ®V§8úÌŒP‡gëİÛbV»7šîz¶œ%İ’€_JçÃD‹QÁòĞA¥Y­)šm:õ§Úœš¢©Ìæ¹¦–Ïî»h¼2ÿSî(İÀïÌ¯dQÁRb|ä‚¨ip ¡àE¾	¯
+Á^ÁpÉµäõ:¾¥yÄb¢Ò3“YƒA’¸/ŠdG€ “AaÖ:¥…ØÄô‚Z‘˜	š¤Õè Ãy¿šä2¬z@m¦ß¦…×Ñ;^ßFÎõ¸ò7hÕ¹/w¡ÊmI^ÉZ†ÀB#wÑ)ûl¤<÷šĞ8²ŒÇœæU›²ÁPLw©ƒ¨z¥Í…ş9_UåŒ¨¢ÒRërà/MìÍ!¤Iµm£÷\\Ã¡nôÈ©ßï¤éŠæ	Í[Š¯D¸Ø~NÊá9]%QGNÒ
+Ş‰‰Êö¦¨k/@¤ç£Æ\'–© 6˜ñ
+tCÓ¤å|¢áğF¤t8½:İPŞWÍI‹‘Ë1]t4S¥Se$S­ÑTyÀtßT}4Ò¾8ØtÑ´\'Ê©†ClÈòëî%*£Ï´UÃ Ùßf¡/SzËFÁäxvœÈÒLÓ—˜}S—3`åµ %8<ø‹Ç,ª¶;É:Äe!Üi[¶o¶<Èë¥â£·J?ÀmùMnö7¹ÙÈíeS”e±:½"sÒ›a:çÉÅ¯
+=u0ËÃ†ÑËˆ†½zƒø¡–¬½Âó¶Ú}£7ˆğ‚ßRQİ$Ãıè+‹ºìqŠ4\'lo˜ÌŒÎLÀAi0ÙRF/+)0„ou3œX-z2!^1ØSÃ¸LÁ^³(º¬ÙbÂ¶‰dÒÅNê<oá9ô%{)~è•]{ƒPˆYÓšu9´ÉšÖ/ßÕeøë$ß1Ú‡‹ºÈ†{Öš³¼g¶7
+ß€re0Y3š7Ú²‚ß*0<cµ¨¢áÅnÃ»é¨!ÊZRSÏëıZø«ğşÊª5uŸ‘»7õ\'(Š¢³êÛ‰ÔÂdá#€0£ø*©úf"·8 ÙÃ™oÙŠ³»–õ…±«½««Š“gaqrÕF×³t9Á´÷]€ìVw\\š3Á¥©]–í˜ªP¸¶BÏXL?(É-&|O7÷”¦™lV]bx\'Pş§“Ç”–¾pï:lB¶´¢¤E§u~‡¸†Cİ.q{€kHş­=ÑÉŠ`b±\'®e·g–Á<nhÓ˜¶,~Õ°,¸¶:ÙxFrl<µã<ƒYÁYOC¿*XyîÄ–dá\\ş®o=#–ÒDlëİİòe‡
+/&êÛ¤÷­áÄ3™¶]½×0’Ê§CGï¸&Ï¤¼àwlRŸ´ü®yqRÜdrK9ÉÍ^z>Ÿ«}|®î¡¿ºº5˜~Yìœ†®Â÷9›£²à¢ŞÔı¸îP¡nc›=®e?”*y‘í:Ğ‡BKªy2Ëq³>Ü¨¼®vÒÏãaEhMußĞHKğóç­_õY/4¬Xû;g!ÿt$ªÒâ–íèrÑbBÕT;Z¼{š=g[+Oş}ÿZhXî)…`1<(ª;ïPÕp¸ ‘«›½b~¦ pÖ-6-Í¥†Cİ,¤ØÒ.-% S¶:ğ8¼Oq&¶×‡0;9¼ó‘ÏHK¢æ7}Í,5.eHØ3~£¶’løn·¾á4Ùñ–ß[ŒòÒ]‡zÇxËÒQãõ\\×2Íşÿõ¤æqİ‰#pÏßQ—&ÏPç-$yÍÚËgt¨p	¥Ê Våò‡jOgb0—;–öLö¡ğô>ã”mº[Ö\\èû}j‹8„ŸæådŒO\'Yšg–²ô»÷
+µ¸(njuyõ¯‡ãzˆ/è@ş¨ÈXÿvîrÍá`ìÈš\'¬9’>–Ò{Íç}]%ÑS£
+aëa×Ğ&öşq1Ë
+K;ƒöL V£„wR!O[ñâ®jî)OØ?2ƒ]T³
+hîô‘­Ni¦‡) /ŠÕ°fôŠ?Ä´âàc
+šçÉªŒäìTìóˆ¬”É—Òı€I·,-E¾)à øÄP¼¤•×ş,[Äº*ë¯_ÓF	×<5t[4«¸(à¥êrÔ,VAÕ uÉ«ùªg¼«B¤"ÕuÉxG^ÆwG>ºÈw¬‰‹ïSß´õŞÜ™õŞW„(_Çwww#ùR#FTˆXhüŸü­ÆÍ»‹µó:âÙêzİÃë÷‰çØvDXıò9EÃ¶·KÈQ{”æÙF-¤»ÚÌh’Šâ•å¯%4Â½h¼ä{~vRÏîKo÷pd…—´$+buxÆ"–­\'$ fğÊ±ÈùbIlÓœ‘¾U§"–oº)»fyÄğeEeÉÇ)°Í~Ç["Ôó@ÎD`×ËŸiVÎ–ä’®*òA¯WUÎæ­¨åCÔûÆŞìŞƒõ£mıìÅğÏò)WæócËÇ&NK‚®.ÿ–¢¼çòI^©2š¦áÁ9SÊ`ó2ŠÖ™ÑZdo9»‡ü.{ÈU!’SËCš’LµŠÔ†åã’\'·4º?’§†èş—2‰ç¶øÔ;)âDZ½É¿HS‰X]óÂGÜ”_§)ù —¤4ËoY,-Ø,NV7TÄ~ô9Aubíkêq|.—/æøG*ÿŞÛM/ä"  ',
+                                                           '_rc' => 200,
+                                                           '_headers' => bless( {
+                                                                                  'connection' => 'close',
+                                                                                  'client-response-num' => 1,
+                                                                                  'date' => 'Wed, 09 Dec 2009 02:08:48 GMT',
+                                                                                  'content-encoding' => 'gzip',
+                                                                                  'vary' => 'Accept-Encoding',
+                                                                                  'client-peer' => '192.20.225.81:80',
+                                                                                  'client-date' => 'Wed, 09 Dec 2009 02:08:44 GMT',
+                                                                                  'content-type' => 'text/html; charset=utf-8',
+                                                                                  'client-transfer-encoding' => [
+                                                                                                                  'chunked'
+                                                                                                                ],
+                                                                                  'server' => 'Apache/2.0.52 (CentOS)'
+                                                                                }, 'HTTP::Headers' ),
+                                                           '_msg' => 'OK',
+                                                           'handlers' => {
+                                                                           'response_data' => [
+                                                                                                {
+                                                                                                  'callback' => sub { "DUMMY" }
+                                                                                                },
+                                                                                                {
+                                                                                                  'callback' => $last_uri{'res'}{'handlers'}{'response_data'}[1]{'callback'}
+                                                                                                }
+                                                                                              ]
+                                                                         },
+                                                           '_request' => $last_uri{'page_stack'}[0]{'req'}
+                                                         }, 'HTTP::Response' )
+                                       }
+                                     ],
+                     'requests_redirectable' => [
+                                                  'GET',
+                                                  'HEAD',
+                                                  'POST'
+                                                ],
+                     'timeout' => 180,
+                     'onerror' => sub { "DUMMY" },
+                     'links' => [],
+                     'base' => bless( do{\(my $o = 'http://www.research.att.com/~njas/sequences/index.html?q=1%2C4%2C9%2C16%2C25%2C36%2C49%2C64%2C81%2C100%2C&language=japanese')}, 'URI::http' ),
+                     'images' => [],
+                     '_extracted_links' => 0,
+                     'show_progress' => undef,
+                     'protocols_forbidden' => undef,
+                     'no_proxy' => [],
+                     'uri' => 'http://www.research.att.com/~njas/sequences/index.html?q=1%2C4%2C9%2C16%2C25%2C36%2C49%2C64%2C81%2C100%2C&language=japanese',
+                     'protocols_allowed' => undef,
+                     'use_eval' => 1,
+                     'autocheck' => 1,
+                     'def_headers' => bless( {
+                                               'user-agent' => 'WWW-Mechanize/1.52'
+                                             }, 'HTTP::Headers' ),
+                     'proxy' => {},
+                     'max_size' => undef,
+                     'headers' => {},
+                     'req' => $last_uri{'res'}{'_request'},
+                     'status' => '200',
+                     'forms' => [
+                                  $last_uri{'form'}
+                                ],
+                     'ct' => 'text/html',
+                     'redirected_uri' => 'http://www.research.att.com/~njas/sequences/index.html?q=1%2C4%2C9%2C16%2C25%2C36%2C49%2C64%2C81%2C100%2C&language=japanese',
+                     '_extracted_images' => 0,
+                     'quiet' => 0,
+                     'max_redirect' => 7,
+                     'stack_depth' => 8675309,
+                     'handlers' => {
+                                     'request_prepare' => bless( [
+                                                                   {
+                                                                     'owner' => 'LWP::UserAgent::cookie_jar',
+                                                                     'callback' => sub { "DUMMY" },
+                                                                     'line' => '/usr/share/perl5/LWP/UserAgent.pm:650'
+                                                                   }
+                                                                 ], 'HTTP::Config' ),
+                                     'response_header' => bless( [
+                                                                   {
+                                                                     'owner' => 'LWP::UserAgent::parse_head',
+                                                                     'callback' => sub { "DUMMY" },
+                                                                     'm_media_type' => 'html',
+                                                                     'line' => '/usr/share/perl5/LWP/UserAgent.pm:629'
+                                                                   }
+                                                                 ], 'HTTP::Config' ),
+                                     'response_done' => bless( [
+                                                                 {
+                                                                   'owner' => 'LWP::UserAgent::cookie_jar',
+                                                                   'callback' => sub { "DUMMY" },
+                                                                   'line' => '/usr/share/perl5/LWP/UserAgent.pm:653'
+                                                                 }
+                                                               ], 'HTTP::Config' )
+                                   },
+                     'last_uri' => 'http://www.research.att.com/~njas/sequences/index.html?q=1%2C4%2C9%2C16%2C25%2C36%2C49%2C64%2C81%2C100%2C&language=japanese',
+                     'onwarn' => sub { "DUMMY" },
+                     'cookie_jar' => bless( {
+                                              'COOKIES' => {}
+                                            }, 'HTTP::Cookies' )
+                   ), 'WWW::Mechanize' );
