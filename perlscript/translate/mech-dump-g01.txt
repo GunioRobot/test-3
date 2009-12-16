@@ -1,0 +1,25 @@
+POST http://translate.google.co.jp/ [text_form]
+  js=n                           (hidden readonly)
+  prev=_t                        (hidden readonly)
+  hl=ja                          (hidden readonly)
+  ie=Shift_JIS                   (hidden readonly)
+  layout=1                       (hidden readonly)
+  eotf=1                         (hidden readonly)
+  <NONAME>=                      (textarea)
+  <NONAME>=<UNDEF>               (checkbox) [*<UNDEF>/off|on]
+  text=                          (textarea)
+  file=                          (file)
+  sl=en                          (option)   [auto/言語検出|-separator/—|is/アイスランド語|ga/アイルランド語|af/アフリカーンス語|ar/アラビア語|sq/アルバニア語|it/イタリア語|yi/イディッシュ語|id/インドネシア語|cy/ウェールズ語|uk/ウクライナ語|et/エストニア語|nl/オランダ語|ca/カタロニア語|gl/ガリシア語|el/ギリシャ語|hr/クロアチア語|sv/スウェーデン語|es/スペイン語|sk/スロバキア語|sl/スロベニア語|sw/スワヒリ語|sr/セルビア語|th/タイ語|tl/タガログ語|cs/チェコ語|da/デンマーク語|de/ドイツ語|tr/トルコ語|no/ノルウェー語|hu/ハンガリー語|hi/ヒンディー語|fi/フィンランド語|fr/フランス語|bg/ブルガリア語|vi/ベトナム語|iw/ヘブライ語|be/ベラルーシ語|fa/ペルシア語|pl/ポーランド語|pt/ポルトガル語|mk/マケドニア語|mt/マルタ語|ms/マレー語|lv/ラトビア語|lt/リトアニア語|ro/ルーマニア語|ru/ロシア語|*en/英語|ko/韓国語|zh-CN/中国語|ja/日本語]
+  tl=ja                          (option)   [is/アイスランド語|ga/アイルランド語|af/アフリカーンス語|ar/アラビア語|sq/アルバニア語|it/イタリア語|yi/イディッシュ語|id/インドネシア語|cy/ウェールズ語|uk/ウクライナ語|et/エストニア語|nl/オランダ語|ca/カタロニア語|gl/ガリシア語|el/ギリシャ語|hr/クロアチア語|sv/スウェーデン語|es/スペイン語|sk/スロバキア語|sl/スロベニア語|sw/スワヒリ語|sr/セルビア語|th/タイ語|tl/タガログ語|cs/チェコ語|da/デンマーク語|de/ドイツ語|tr/トルコ語|no/ノルウェー語|hu/ハンガリー語|hi/ヒンディー語|fi/フィンランド語|fr/フランス語|bg/ブルガリア語|vi/ベトナム語|iw/ヘブライ語|be/ベラルーシ語|fa/ペルシア語|pl/ポーランド語|pt/ポルトガル語|mk/マケドニア語|mt/マルタ語|ms/マレー語|lv/ラトビア語|lt/リトアニア語|ro/ルーマニア語|ru/ロシア語|en/英語|ko/韓国語|zh-CN/中国語(簡体)|zh-TW/中国語(繁体)|*ja/日本語]
+  <NONAME>=翻訳                    (submit)
+
+POST http://translate.google.co.jp/translate_suggestion
+  hl=ja                          (hidden readonly)
+  oe=Shift_JIS                   (hidden readonly)
+  text=                          (hidden readonly)
+  langpair=                      (hidden readonly)
+  gtrans=                        (hidden readonly)
+  utrans=                        (textarea)
+  <NONAME>=送信                    (submit)
+  <NONAME>=キャンセル                 (button)
+
