@@ -4,8 +4,11 @@ use strict;
 use warnings;
 
 use YAML::Tiny;
-#use WWW::Mechanize;
+use WWW::Mechanize;
 use Data::Dumper;
+#use Get::opt;
+#use lib 'cpanlib';
+#use lib 'lib';
 
 our $VERSION  = '0.1';
 
@@ -20,44 +23,69 @@ $yaml     = YAML::Tiny->read('config.yaml');
 &google;
 
 sub google{;
-#  my ( $body, $method )  = @_;
-
-  use WWW::Mechanize;
+  my ($body, $method)  = @_;
+  
   my $mech  =   new WWW::Mechanize( autocheck=>1 );
   $mech->get($yaml->[0]->{google}->{url});   
 
-  print Dumper $mech->content;
+  if ($method eq 'enja') {
+  }
+  elsif ($method eq 'jaen') {
+  }
+  else {
+    print "例外が発生しました。\n";
+  }
+
+  print $mech->content;
 
 }
 
 sub excite {
-#  my ( $body, $method )  = @_;
+  my ($body, $method)  = @_;
 
-  use WWW::Mechanize;
   my $mech  = new WWW::Mechanize( autocheck=>1 );
   $mech->get($yaml->[0]->{excite}->{url});
 
-  print Dumper $mech->content;
+  if ($method eq 'enja') {
+  }
+  elsif ($method eq 'jaen') {
+  }
+  else {
+    print "例外が発生しました。\n";
+  }
+  print $mech->content;
 }
 
 sub infoseek {
-#  my ( $body, $method )  = @_;
+  my ($body, $method)  = @_;
 
-  use WWW::Mechanize( autocheck=>1 );
   my $mech  = new WWW::Mechanize( autocheck=>1);
   $mech->get($yaml->[0]->{infoseek}->{url});
 
-  print Dumper $mech->content;
+  if ($method eq 'enja') {
+  }
+  elsif ($method eq 'jaen') {
+  }
+  else {
+    print "例外が発生しました。\n";
+  }
+  print $mech->content;
 }
 
 sub yahoo {
-#  my ( $body, $method )  = @_;
+  my ($body, $method)  = @_;
 
-  use WWW::Mechanize;
   my $mech  = new WWW::Mechanize( autocheck=>1 );
   $mech->get($yaml->[0]->{yahoo}->{url});
 
-  print Dumper $mech->content;
+  if ($method eq 'enja') {
+  }
+  elsif ($method eq 'jaen') {
+  }
+  else {
+    print "例外が発生しました。\n";
+  }
+  print $mech->content;
 
 }
 1;
