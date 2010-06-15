@@ -1,0 +1,7 @@
+package hoge;
+
+
+print 
+
+
+
