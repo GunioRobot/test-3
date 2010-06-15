@@ -1,0 +1,12 @@
+---
+01.yml:
+  fruit:
+    - apple
+    - strawberry
+    - pear
+02.yml:
+  fruit:
+    - apple
+    - strawberry
+    - pear
+    - plum
