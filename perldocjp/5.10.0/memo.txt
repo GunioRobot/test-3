@@ -1,0 +1,8 @@
+# 翻訳ミス
+ * 連絡済み
+ * 連絡まだ
+  * perldocjp -J perlmod 
+  * perldocjp -J perlmod 
+
+
+ 
