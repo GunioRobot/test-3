@@ -1,0 +1,24 @@
+global:
+ plugin_path:
+  - /home/zeus/Data/repos/github/plagger/lib/Plagger/Plugin
+ assets_path: /home/zeus/Data/repos/github/plagger/assets
+ timezone: Asia/Tokyo
+ cache:
+  base: ./plagger_cache
+ log:
+  level: info
+ charset: utf-8
+
+plugins:
+
+  - module: Subscription::Config
+    config:
+      feed:
+        - http://d.hatena.ne.jp/azurestone/
+
+
+  - module: Publish::DumpYAML
+    config:
+      filename: a.yml
+
+
